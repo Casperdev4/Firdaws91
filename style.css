@@ -272,7 +272,7 @@ nav a:hover::after {
 }
 
 .logo {
-    width: 17em;
+    max-width: 17em;
 }
 
 .image_secuinfo {
@@ -378,6 +378,7 @@ a:hover {
     color: #5a5a5a;
     font-weight: 400;
     margin-bottom: 20px;
+    font-size: 1.8em;
 }
 .formu input, textarea {
     border: 0;
