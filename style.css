@@ -498,8 +498,14 @@ textarea {
 /* ... Vos styles CSS pour les écrans de taille normale ... */
 
 @media (max-width: 768px) {
-    /* Styles pour les écrans de petite taille (par exemple, mobiles) */
-    /* ... Vos styles CSS pour les écrans de petite taille ... */
+    .imageindex h6 {
+        font-size: 200%;
+    }
+
+    nav a {
+        font-size: 90%;
+    }
+    
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
