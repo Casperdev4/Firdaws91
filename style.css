@@ -509,7 +509,7 @@ textarea {
         font-size: 1.5em;
     }
 
-    .financer-puits p, .eaulavie p, .puitsafrique p, .puitscambodge p, .rectangle_gris p {
+    .financer-puits p, .eaulavie p, .puitsafrique p, .puitscambodge p, .rectangle_gris p, .àpropos p, .texte-apropos p, .texte2-apropos p {
         font-size: 1em;
     }
 
@@ -536,5 +536,19 @@ textarea {
         margin-top: 3%;
         margin-bottom: 3%;
         border-radius: 10%;
+    }
+     .formu-contact {
+        font-size: 1em;
+        width: 90%;
+        height: 30em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .formu {
+        width: 80%;
+        height: 80%;
+    }
+    .formu h2 {
+        font-size: 1.5em;
     }
 }
