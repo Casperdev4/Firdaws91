@@ -494,8 +494,7 @@ textarea {
     border-radius: 35px;
 }
 
-/* Styles pour les écrans de taille normale */
-/* ... Vos styles CSS pour les écrans de taille normale ... */
+/* Mobile */
 
 @media (max-width: 768px) {
     .imageindex h6 {
@@ -505,15 +504,5 @@ textarea {
     nav a {
         font-size: 90%;
     }
-    
-}
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    /* Styles pour les écrans de taille moyenne (par exemple, tablettes) */
-    /* ... Vos styles CSS pour les écrans de taille moyenne ... */
-}
-
-@media (min-width: 1025px) {
-    /* Styles pour les écrans de grande taille (par exemple, ordinateurs de bureau) */
-    /* ... Vos styles CSS pour les écrans de grande taille ... */
 }
