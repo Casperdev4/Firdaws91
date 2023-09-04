@@ -501,8 +501,40 @@ textarea {
         font-size: 200%;
     }
 
+    .enfant-bois h6 {
+        font-size: 200%;
+    }
+
+    .financer-puits h2, .puitsafrique h2, .eaulavie h2, .puitscambodge h2 {
+        font-size: 1.5em;
+    }
+
+    .financer-puits p, .eaulavie p, .puitsafrique p, .puitscambodge p, .rectangle_gris p {
+        font-size: 1em;
+    }
+
     nav a {
         font-size: 90%;
     }
 
+    .images-index123 {
+        display: flex;
+        padding: 2%;
+        gap: 1%;
+    }
+
+    .image123 {
+        margin: 0;
+        flex: 1;
+        position: relative;
+        width: 45%;
+        padding: 4% 0%;
+        font-size: 4em;
+        color: #191919;
+        text-align: center;
+        background: #fff;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border-radius: 10%;
+    }
 }
