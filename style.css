@@ -108,12 +108,12 @@ h5 {
     background-color: rgb(21, 111, 255);
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 25px;
     font-size: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
+    width: 180px;
     margin-left: auto;
     margin-right: auto;
     white-space: nowrap;
@@ -127,11 +127,11 @@ h5 {
     color: white;
     text-decoration: none;
     padding: 10px 25px;
-    font-size: 24px;
+    font-size: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
+    width: 180px;
     margin-left: auto;
     margin-right: auto;
     white-space: nowrap;
@@ -139,17 +139,6 @@ h5 {
     font-family: Helvetica, sans-serif;
 }
 
-.enfant-bois {
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.enfant-bois img {
-    width: 100%;
-    margin-top: 3%;
-    margin-bottom: 5%;
-}
 
 .texte-image-enfant-bois {
     position: absolute;
@@ -185,17 +174,6 @@ h5 {
     font-weight: 100;
 }
 
-.imagemaraude {
-    display: flex;
-    justify-content: center;
-}
-
-.imagemaraude img {
-    width: 90%;
-    margin-top: 3%;
-    margin-bottom: 5%;
-}
-
 .imagepuits {
     display: flex;
     justify-content: center;
@@ -206,12 +184,12 @@ h5 {
     border-radius: 50%;
 }
 
-.imagedons {
+.imagecolis-puits-maraudes {
     display: flex;
     justify-content: center;
 }
 
-.imagedons img {
+.imagecolis-puits-maraudes img {
     width: 90%;
     margin-top: 3%;
     margin-bottom: 5%;
@@ -244,10 +222,6 @@ h5 {
     color: black;
     font-size: 40px;
     font-weight: 80;
-}
-
-.logo {
-    max-width: 25%;
 }
 
 .image_secuinfo {
@@ -457,7 +431,7 @@ textarea {
 }
 
 
-/* Variables */
+/* Navigation */
 :root {
     --font-size: 1rem;
 }
@@ -486,7 +460,7 @@ ul {
 
 /* Basic style */
 .navigation {
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     font-size: var(--font-size);
     font-family: 'Poppins', sans-serif;
 }
@@ -500,7 +474,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0;
     font-size: 1.1rem;
     background: var(--navbar-bg-color);
     color: var(--navbar-color);
@@ -519,8 +493,30 @@ ul {
     text-decoration: none;
 }
 
+.navbar__logo img {
+    height: 10em;
+    font-size: 100%;
+
+}
+
 .burger {
     display: none;
+}
+
+/*  Medium device - Bonus */
+@media screen and (min-width:768px) {
+    .navbar__link>a::after {
+        display: block;
+        content: "";
+        width: 0;
+        height: 3px;
+        background: var(--navbar-color);
+        transition: width .4s;
+    }
+
+    .navbar__link:hover>a::after {
+        width: 100%;
+    }
 }
 
 /*  Small device */
@@ -577,6 +573,7 @@ ul {
         border: none;
         background: transparent;
         cursor: pointer;
+        margin-right: 4px;
     }
 
     .bar {
@@ -640,22 +637,6 @@ ul {
 
     .show-nav .fifth {
         transition: all 1.4s ease-out;
-    }
-}
-
-/*  Medium device - Bonus */
-@media screen and (min-width:768px) {
-    .navbar__link>a::after {
-        display: block;
-        content: "";
-        width: 0;
-        height: 1px;
-        background: var(--navbar-color);
-        transition: width .4s;
-    }
-
-    .navbar__link:hover>a::after {
-        width: 100%;
     }
 }
 
@@ -729,5 +710,9 @@ ul {
 
     .formu h2 {
         font-size: 1.5em;
+    }
+
+    .imageindex {
+        display: none;
     }
 }
