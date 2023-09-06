@@ -448,7 +448,7 @@ textarea {
     --navbar-bg-color: #000;
 }
 
-/* Reset */
+
 * {
     box-sizing: border-box;
     outline: none;
@@ -471,7 +471,7 @@ ul {
     padding: 1rem;
 }
 
-/* Navbar */
+
 .navbar {
     display: flex;
     align-items: center;
@@ -565,7 +565,6 @@ ul {
         letter-spacing: 5px;
     }
 
-    /* Toggle menu */
     .burger {
         display: block;
         position: relative;
@@ -620,7 +619,6 @@ ul {
         transform: rotate(-45deg);
     }
 
-    /* Bonus - Animations */
     .show-nav .first {
         transition: all 1s ease-out;
     }
