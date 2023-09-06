@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords"
         content="maraudes, colis alimentaires, puits, aide humanitaire, Firdaws 91, association caritative, bénévolat, initiatives humanitaires">
     <meta name="description"
@@ -13,12 +14,20 @@
 
 <body>
     <a href="index.html"><img class="logo" src="./logo/Aicha750.png" alt="Firdaws"></a>
-    <nav>
-        <a href="puits.html">Puits</a>
-        <a href="maraude.html">Maraudes</a>
-        <a href="dons.html">Colis Alimentaires</a>
-        <a href="a propos.html">à propos</a>
-    </nav>
+    <div class="navigation">
+        <nav class="navbar light-mode" role="navigation">
+            <ul class="navbar__links">
+                <li class="navbar__link first"><a href="index.html">Accueil</a></li>
+                <li class="navbar__link second"><a href="puits.html">Puits</a></li>
+                <li class="navbar__link third"><a href="maraude.html">Maraudes</a></li>
+                <li class="navbar__link four"><a href="dons.html">Colis Alimentaires</a></li>
+                <li class="navbar__link fifth"><a href="a propos.html">à propos</a></li>
+            </ul>
+            <button class="burger">
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </div>
     <div class="imageindex"><img src="imageindex.webp" alt="partage">
         <h6 class="texte-image-index">Faites un geste pour les populations en détresse</h6>
     </div>
@@ -58,7 +67,24 @@
             <button type="envoyer">Envoyer</button>
         </form>
     </div>
+    <script> function toggleMenu() {
+        const navbar = document.querySelector('.navbar');
+        const burger = document.querySelector('.burger');
 
+        burger.addEventListener('click', (e) => {
+            navbar.classList.toggle('show-nav');
+        });
+        // bonus
+        const navbarLinks = document.querySelectorAll('.navbar a');
+        navbarLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                navbar.classList.toggle('show-nav');
+            });
+        })
+
+    }
+    toggleMenu();
+</script>
 </body>
 
 </html>
