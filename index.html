@@ -15,18 +15,19 @@
 <body>
     <div class="navigation">
         <nav class="navbar light-mode" role="navigation">
-            <div class="navbar__logo"><a href="index.html"><img class="logo" src="./logo/Aicha750.png" alt="Firdaws"></a></div>  
+            <div class="navbar__logo"><a href="index.html"><img class="logo" src="./logo/Aicha750.png"
+                        alt="Firdaws"></a></div>
             <ul class="navbar__links">
-              <li class="navbar__link first"><a href="index.html">Accueil</a></li>
-              <li class="navbar__link second"><a href="puits.html">Puits</a></li>
-              <li class="navbar__link third"><a href="maraude.html">Maraudes</a></li>
-              <li class="navbar__link four"><a href="dons.html">Colis Alimentaires</a></li>
-              <li class="navbar__link fifth"><a href="a propos.html">à propos</a></li>
-            </ul>   
+                <li class="navbar__link first"><a href="index.html">Accueil</a></li>
+                <li class="navbar__link second"><a href="puits.html">Puits</a></li>
+                <li class="navbar__link third"><a href="maraude.html">Maraudes</a></li>
+                <li class="navbar__link four"><a href="dons.html">Colis</a></li>
+                <li class="navbar__link fifth"><a href="a propos.html">à propos</a></li>
+            </ul>
             <button class="burger">
-              <span class="bar"></span>  
-            </button>   
-          </nav>
+                <span class="bar"></span>
+            </button>
+        </nav>
     </div>
     <div class="imageindex"><img src="imageindex.webp" alt="partage">
     </div>
@@ -55,35 +56,75 @@
         <div class="voir-index2"><a href="maraude.html">VOIR ></a></div>
         <div class="voir-index3"><a href="dons.html">VOIR ></a></div>
     </div>
-    </a>
+    <div class="image123-mobile">
+        <figure class="image123">
+            <img class="image-item" src="missionpuits.webp" alt="puits">
+            <h2 class="image-description">PUITS</h2>
+        </figure>
+    </div>
+    <div class="texte-index-mobile">
+        <p>La construction de <strong>puits</strong> dans les villages d'<strong>Afrique</strong> et d'<strong>Asie</strong> est essentielle. Elle fournit un <strong>accès à l'eau</strong>
+            potable, réduit les maladies, libère du temps pour l'éducation et stimule le développement économique, tout
+            en
+            préservant l'environnement. C'est un investissement précieux pour l'avenir de ces communautés.</p>
+    </div>
+    <div class="voir-index1-mobile"><a href="puits.html">VOIR ></a></div>
+    <div class="image123-mobile">
+        <figure class="image123">
+            <img class="image-item" src="missionmaraudes.webp" alt="maraude">
+            <h2 class="image-description">MARAUDES</h2>
+        </figure>
+    </div>
+    <div class="texte-index-mobile">
+        <p>
+            <strong>Les maraudes</strong> à Paris sont d'une importance vitale. Elles offrent de la <strong>nourriture</strong>, des <strong>vêtements</strong> et un
+            <strong>soutien aux sans-abri</strong>, aidant ainsi à atténuer la détresse dans les rues de la ville lumière. Ces actes de
+            solidarité renforcent la dignité humaine, améliorent la sécurité des personnes vulnérables et contribuent à
+            construire une société plus compatissante. Participer à des maraudes à Paris est un moyen concret d'<strong>apporter
+            de l'aide</strong> à ceux qui en ont le plus besoin et de faire preuve d'empathie envers nos concitoyens <strong>sans abri</strong>.
+        </p>
+    </div>
+    <div class="voir-index1-mobile"><a href="puits.html">VOIR ></a></div>
+    <div class="image123-mobile">
+        <figure class="image123">
+            <img class="image-item" src="missioncolis.webp" alt="colis-alimentaire">
+            <h2 class="image-description">COLIS ALIMENTAIRES</h2>
+        </figure>
+    </div>
+    <div class="texte-index-mobile">
+        <p>La <strong>distribution de colis alimentaires</strong> aux familles est essentielle. Elle lutte contre <strong>la faim</strong>, assure la
+            sécurité <strong>alimentaire</strong> et renforce la solidarité. C'est une aide concrète pour les familles dans
+            le besoin.</p>
+    </div>
+    <div class="voir-index1-mobile"><a href="puits.html">VOIR ></a></div>
     <div class="formu-contact">
         <form class="formu">
             <h2>Une question ?<br>Contactez-nous</h2>
-            <input type="text" style="width:330px;" id="name" placeholder="Nom" required>
-            <input type="email" style="width:330px;" id="email" placeholder="Email" required>
-            <input type="text" style="width:330px;" id="name" placeholder="Téléphone" required>
-            <textarea id="message" style="width:330px;" rows="4" placeholder="Pouvons-nous vous aider ?"></textarea>
+            <input type="text" id="name" placeholder="Nom" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="name" placeholder="Téléphone" required>
+            <textarea id="message" rows="4" placeholder="Pouvons-nous vous aider ?"></textarea>
             <button type="envoyer">Envoyer</button>
         </form>
     </div>
     <script> function toggleMenu() {
-        const navbar = document.querySelector('.navbar');
-        const burger = document.querySelector('.burger');
+            const navbar = document.querySelector('.navbar');
+            const burger = document.querySelector('.burger');
 
-        burger.addEventListener('click', (e) => {
-            navbar.classList.toggle('show-nav');
-        });
-        // bonus
-        const navbarLinks = document.querySelectorAll('.navbar a');
-        navbarLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
+            burger.addEventListener('click', (e) => {
                 navbar.classList.toggle('show-nav');
             });
-        })
+            // bonus
+            const navbarLinks = document.querySelectorAll('.navbar a');
+            navbarLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    navbar.classList.toggle('show-nav');
+                });
+            })
 
-    }
-    toggleMenu();
-</script>
+        }
+        toggleMenu();
+    </script>
 </body>
 
 </html>

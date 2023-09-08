@@ -243,10 +243,10 @@ h5 {
     font-family: Helvetica, sans-serif;
 }
 
+.voir-index1,
+.voir-index2,
 .voir-index3 {
     background-color: rgb(21, 111, 255);
-    color: white;
-    text-decoration: none;
     padding: 10px 15px;
     font-size: 22px;
     display: flex;
@@ -261,41 +261,6 @@ h5 {
     font-family: Helvetica, sans-serif;
 }
 
-.voir-index2 {
-    background-color: rgb(21, 111, 255);
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    white-space: nowrap;
-    margin-bottom: 7%;
-    border-radius: 15px;
-    font-family: Helvetica, sans-serif;
-}
-
-.voir-index1 {
-    background-color: rgb(21, 111, 255);
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    white-space: nowrap;
-    margin-bottom: 7%;
-    border-radius: 15px;
-    font-family: Helvetica, sans-serif;
-}
 
 .voir-index123 a {
     color: aliceblue;
@@ -309,13 +274,12 @@ a:hover {
 .formu-contact {
     width: 100%;
     height: 65vh;
-    background-color: #ffbd59;
+    background-color: #6de1bb;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     margin-bottom: 7%;
-    background-image: url(img-formu.png);
     margin-top: 10%;
 }
 
@@ -324,7 +288,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
-    width: 620px;
+    width: 520px;
     height: 500px;
     border-radius: 20px;
     display: flex;
@@ -432,6 +396,11 @@ textarea {
     border-radius: 35px;
 }
 
+.image123-mobile,
+.voir-index1-mobile, .texte-index-mobile {
+    display: none;
+}
+
 
 /* Navigation */
 :root {
@@ -505,21 +474,6 @@ ul {
     display: none;
 }
 
-/*  Medium device - Bonus */
-@media screen and (min-width:768px) {
-    .navbar__link>a::after {
-        display: block;
-        content: "";
-        width: 0;
-        height: 3px;
-        background: var(--navbar-color);
-        transition: width .4s;
-    }
-
-    .navbar__link:hover>a::after {
-        width: 100%;
-    }
-}
 
 /*  Small device */
 @media screen and (max-width:767.98px) {
@@ -651,7 +605,8 @@ ul {
     .puitsafrique h2,
     .eaulavie h2,
     .puitscambodge h2 {
-        font-size: 1.5em;
+        font-size: 1.7em;
+        margin-bottom: 6%;
     }
 
     .financer-puits p,
@@ -692,20 +647,19 @@ ul {
 
     .formu-contact {
         font-size: 1em;
-        width: 90%;
-        height: 30em;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
+        height: 35em;
     }
 
     .formu {
-        width: 80%;
+        width: 90%;
         height: 80%;
     }
 
     .formu h2 {
         font-size: 1.5em;
     }
+
 
     .formu input,
     textarea {
@@ -723,7 +677,107 @@ ul {
 
     }
 
-    .imageindex {
+
+    .image123-mobile {
+        display: flex;
+        padding: 2%;
+        gap: 1%;
+    }
+
+    .image123 {
+        margin: 20%;
+        flex: 1;
+        position: relative;
+        width: 45%;
+        padding: 7% 0%;
+        font-size: 5em;
+        color: #191919;
+        text-align: center;
+        background: #fff;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border-radius: 10%;
+    }
+
+    .image123::after {
+        content: '';
+        position: absolute;
+        top: -1%;
+        left: -1%;
+        right: -1%;
+        bottom: -1%;
+        background: linear-gradient(45deg, #ffae22, #ad00c1, #0076de, #00c807);
+        z-index: -1;
+        border-radius: 10%;
+    }
+
+    .image123::before {
+        content: '';
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        background: linear-gradient(45deg, #ffae22, #ad00c1, #0076de, #00c807);
+        z-index: -2;
+        filter: blur(10px);
+    }
+
+    .image123+.image123 {
+        margin-left: 1%;
+    }
+
+    .image-item {
+        width: 80%;
+        vertical-align: top;
+    }
+
+    .image-description {
+        margin-top: 5%;
+        background-color: #ffe0b7;
+        padding: 7%;
+        text-align: center;
+        font-size: 27%;
+        border-radius: 35px;
+    }
+
+    .voir-index1-mobile {
+        background-color: rgb(21, 111, 255);
+        padding: 10px 15px;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: nowrap;
+        margin-bottom: 7%;
+        border-radius: 15px;
+        font-family: Helvetica, sans-serif;
+    }
+
+    .voir-index1-mobile a {
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    .texte-index-mobile {
+        display: flex;
+        justify-content: center;
+        color: rgb(19, 19, 19);
+        font-weight: 350;
+        font-size: 18px;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+
+    .imageindex,
+    .images-index123,
+    .voir-index123 {
         display: none;
     }
+
+
 }
