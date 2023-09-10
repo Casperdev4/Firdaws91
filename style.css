@@ -437,11 +437,6 @@ ul {
     font-family: 'Poppins', sans-serif;
 }
 
-.main-content {
-    padding: 1rem;
-}
-
-
 .navbar {
     display: flex;
     align-items: center;
@@ -489,7 +484,8 @@ ul {
         width: 0;
         height: calc(100vh - 65px);
         position: absolute;
-        top: 42px;
+        position: fixed;
+        top: 65px;
         right: 0;
         background: var(--navbar-bg-color);
         transform: translateX(110%);
@@ -538,11 +534,13 @@ ul {
 
     .bar {
         display: block;
+        position: fixed;
         width: 40px;
         height: 4px;
         border-radius: 3px;
         background: var(--navbar-color);
         transition: all .5s ease-in-out;
+        z-index: 999;
     }
 
     .bar::before,
