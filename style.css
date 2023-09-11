@@ -465,7 +465,7 @@ ul {
 }
 
 .navbar__logo img {
-    height: 10em;
+    height: 12em;
     font-size: 100%;
 
 }
@@ -789,6 +789,13 @@ ul {
         color: rgb(20, 139, 230);
     }
 
+    .imagepuits img {
+        width: 35%;
+        border-radius: 50%;
+    }
+
+
+    
     .imageindex,
     .images-index123,
     .voir-index123 {

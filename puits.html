@@ -15,25 +15,27 @@
 <body>
     <div class="navigation">
         <nav class="navbar light-mode" role="navigation">
-            <div class="navbar__logo"><a href="index.html"><img class="logo" src="./logo/Aicha750.png" alt="Firdaws"></a></div>  
+            <div class="navbar__logo"><a href="index.html"><img class="logo" src="./logo/Aicha750.png"
+                        alt="Firdaws"></a></div>
             <ul class="navbar__links">
-              <li class="navbar__link first"><a href="index.html">Accueil</a></li>
-              <li class="navbar__link second"><a href="puits.html">Puits</a></li>
-              <li class="navbar__link third"><a href="maraude.html">Maraudes</a></li>
-              <li class="navbar__link four"><a href="dons.html">Colis</a></li>
-              <li class="navbar__link fifth"><a href="a propos.html">à propos</a></li>
-            </ul>   
+                <li class="navbar__link first"><a href="index.html">Accueil</a></li>
+                <li class="navbar__link second"><a href="puits.html">Puits</a></li>
+                <li class="navbar__link third"><a href="maraude.html">Maraudes</a></li>
+                <li class="navbar__link four"><a href="dons.html">Colis</a></li>
+                <li class="navbar__link fifth"><a href="a propos.html">à propos</a></li>
+            </ul>
             <button class="burger">
-              <span class="bar"></span>  
-            </button>   
-          </nav>
+                <span class="bar"></span>
+            </button>
+        </nav>
     </div>
     <div class="imagecolis-puits-maraudes"><img src="enfantbois.webp" alt="puits"></div>
     <div class="financer-puits">
         <h2>Comment faire pour financer un puits ?</h2>
-        <p><strong>Financement</strong> : Vous pouvez offrir un puits directement sur le site par CB en choisissant le
+        <p><strong>Financement</strong> : Vous pouvez offrir un puits directement sur le site par CB ou sur Paypal en
+            choisissant le
             montant du puits
-            que <br> vous souhaitez forer (370 € pour les puits au Cambodge et 1940 € pour les puits en Afrique).
+            que vous souhaitez forer (370 € pour les puits au Cambodge et 1940 € pour les puits en Afrique).
             Actuellement, <br> nos délais de réalisation sont d'environ 8 mois. <br> <br>
             <strong>Informations</strong> : Une fois le règlement effectué vous recevrez par mail un courriel de
             confirmation de don et
@@ -139,23 +141,23 @@
         </form>
     </div>
     <script> function toggleMenu() {
-        const navbar = document.querySelector('.navbar');
-        const burger = document.querySelector('.burger');
+            const navbar = document.querySelector('.navbar');
+            const burger = document.querySelector('.burger');
 
-        burger.addEventListener('click', (e) => {
-            navbar.classList.toggle('show-nav');
-        });
-        // bonus
-        const navbarLinks = document.querySelectorAll('.navbar a');
-        navbarLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
+            burger.addEventListener('click', (e) => {
                 navbar.classList.toggle('show-nav');
             });
-        })
+            // bonus
+            const navbarLinks = document.querySelectorAll('.navbar a');
+            navbarLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    navbar.classList.toggle('show-nav');
+                });
+            })
 
-    }
-    toggleMenu();
-</script>
+        }
+        toggleMenu();
+    </script>
 </body>
 
 </html>
