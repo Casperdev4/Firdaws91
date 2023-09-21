@@ -2,27 +2,27 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
 
 <url>
-<loc>https://firdaws91.fr/index.html</loc>
+<loc>https://www.firdaws91.fr/index.html</loc>
     <image:image>
-        <image:loc>https://www.webprime.fr/missionpuits.webp</image:loc>
+        <image:loc>https://www.firdaws91.fr/missionpuits.webp</image:loc>
         <image:caption>image-puits</image:caption>
         <image:title>puits-afrique-asie</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.webprime.fr/missionmaraudes.webp</image:loc>
+        <image:loc>https://www.firdaws91.fr/missionmaraudes.webp</image:loc>
         <image:caption>image-maraude</image:caption>
         <image:title>maraude</image:title>
     </image:image>
         </image:image>
         <image:image>
-        <image:loc>https://www.webprime.fr/missioncolis.webp</image:loc>
+        <image:loc>https://www.firdaws91.fr/missioncolis.webp</image:loc>
         <image:caption>image-colis-alimentaires</image:caption>
         <image:title>colis-alimentaires</image:title>
     </image:image>    </image:image>
 </url>
 
 <url>
-<loc>https://firdaws91.fr/puits.html</loc>
+<loc>https://www.firdaws91.fr/puits.html</loc>
     <image:image>
         <image:loc>https://www.firdaws91.fr/enfantbois.webp</image:loc>
         <image:caption>image-puits-afrique-asie</image:caption>
@@ -41,7 +41,7 @@
 </url>
 
 <url>
-<loc>https://firdaws91.fr/maraude.html</loc>
+<loc>https://www.firdaws91.fr/maraude.html</loc>
     <image:image>
         <image:loc>https://www.firdaws91.fr/imagemaraude.jpg</image:loc>
         <image:caption>image-maraude</image:caption>
@@ -50,7 +50,7 @@
 </url>
 
 <url>
-<loc>https://firdaws91.fr/dons.html</loc>
+<loc>https://www.firdaws91.fr/dons.html</loc>
     <image:image>
         <image:loc>https://www.firdaws91.fr/colisalim.jpg</image:loc>
         <image:caption>image-colis-alimentaires</image:caption>
@@ -59,15 +59,15 @@
 </url>
 
 <url>
-<loc>https://firdaws91.fr/tel:0767930456</loc>
+<loc>https://www.firdaws91.fr/tel:0767930456</loc>
 </url>
 
 <url>
-<loc>https://firdaws91.fr/Mentionslegales.html</loc>
+<loc>https://www.firdaws91.fr/Mentionslegales.html</loc>
 </url>
 
 <url>
-<loc>https://firdaws91.fr/CGV.html</loc>
+<loc>https://www.firdaws91.fr/CGV.html</loc>
 </url>
 
 </urlset>
