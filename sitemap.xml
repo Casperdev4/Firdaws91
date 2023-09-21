@@ -2,73 +2,72 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
 
 <url>
-<loc>https://webprime.fr/index.html</loc>
+<loc>https://firdaws91.fr/index.html</loc>
     <image:image>
-        <image:loc>https://www.webprime.fr/siteweb.jpg</image:loc>
-        <image:caption>image-creation-sites-web</image:caption>
-        <image:title>creation-sites-web</image:title>
+        <image:loc>https://www.webprime.fr/missionpuits.webp</image:loc>
+        <image:caption>image-puits</image:caption>
+        <image:title>puits-afrique-asie</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.webprime.fr/referencement-seo.jpg</image:loc>
-        <image:caption>image-referencement-seo</image:caption>
-        <image:title>referencement-seo</image:title>
+        <image:loc>https://www.webprime.fr/missionmaraudes.webp</image:loc>
+        <image:caption>image-maraude</image:caption>
+        <image:title>maraude</image:title>
     </image:image>
         </image:image>
         <image:image>
-        <image:loc>https://www.webprime.fr/google-page-speed-insights.png</image:loc>
-        <image:caption>image-google-page-speed-insights</image:caption>
-        <image:title>google-page-speed-insights</image:title>
+        <image:loc>https://www.webprime.fr/missioncolis.webp</image:loc>
+        <image:caption>image-colis-alimentaires</image:caption>
+        <image:title>colis-alimentaires</image:title>
     </image:image>    </image:image>
-        <image:image>
-        <image:loc>https://www.webprime.fr/page-speed-insights.png</image:loc>
-        <image:caption>image-google-page-speed-insights</image:caption>
-        <image:title>google-page-speed-insights</image:title>
-    </image:image>
 </url>
 
 <url>
-<loc>https://webprime.fr/siteweb.html</loc>
+<loc>https://firdaws91.fr/puits.html</loc>
     <image:image>
-        <image:loc>https://www.webprime.fr/site-vitrine.png</image:loc>
-        <image:caption>image-site-vitrine</image:caption>
-        <image:title>site-vitrine</image:title>
+        <image:loc>https://www.firdaws91.fr/enfantbois.webp</image:loc>
+        <image:caption>image-puits-afrique-asie</image:caption>
+        <image:title>puits-afrique-asie</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.webprime.fr/site-catalogue.png</image:loc>
-        <image:caption>image-site-catalogue</image:caption>
-        <image:title>site-catalogue</image:title>
+        <image:loc>https://www.firdaws91.fr/imagepuits.webp</image:loc>
+        <image:caption>image-puits-afrique</image:caption>
+        <image:title>puits-afrique</image:title>
     </image:image>
-        </image:image>
         <image:image>
-        <image:loc>https://www.webprime.fr/site-e-commerce.png</image:loc>
-        <image:caption>image-site-e-commerce</image:caption>
-        <image:title>site-e-commerce</image:title>
+        <image:loc>https://www.firdaws91.fr/puitscamb.webp</image:loc>
+        <image:caption>image-puits-asie</image:caption>
+        <image:title>puits-asie</image:title>
     </image:image>
 </url>
 
 <url>
-<loc>https://webprime.fr/seo.html</loc>
+<loc>https://firdaws91.fr/maraude.html</loc>
     <image:image>
-        <image:loc>https://www.webprime.fr/ads.webp</image:loc>
-        <image:caption>image-google-ads</image:caption>
-        <image:title>google-ads</image:title>
+        <image:loc>https://www.firdaws91.fr/imagemaraude.jpg</image:loc>
+        <image:caption>image-maraude</image:caption>
+        <image:title>maraude</image:title>
     </image:image>
 </url>
 
 <url>
-<loc>https://webprime.fr/tarif.html</loc>
+<loc>https://firdaws91.fr/dons.html</loc>
+    <image:image>
+        <image:loc>https://www.firdaws91.fr/colisalim.jpg</image:loc>
+        <image:caption>image-colis-alimentaires</image:caption>
+        <image:title>colis-alimentaires</image:title>
+    </image:image>
 </url>
 
 <url>
-<loc>https://webprime.fr/tel:0767930456</loc>
+<loc>https://firdaws91.fr/tel:0767930456</loc>
 </url>
 
 <url>
-<loc>https://webprime.fr/Mentionslegales.html</loc>
+<loc>https://firdaws91.fr/Mentionslegales.html</loc>
 </url>
 
 <url>
-<loc>https://webprime.fr/CGV.html</loc>
+<loc>https://firdaws91.fr/CGV.html</loc>
 </url>
 
 </urlset>
