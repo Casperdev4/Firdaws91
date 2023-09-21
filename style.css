@@ -360,15 +360,7 @@ a:hover {
     border-radius: 35px;
 }
 
-.image123-mobile,
-.voir-index1-mobile,
-.texte-index-mobile,
-.hr-mobile {
-    display: none;
-}
 
-
-/* Navigation */
 :root {
     --font-size: 1rem;
 }
@@ -554,6 +546,13 @@ ul {
 
 .navbar__link:hover>a::after {
     width: 50%;
+}
+
+.image123-mobile,
+.voir-index1-mobile,
+.texte-index-mobile,
+.hr-mobile {
+    display: none;
 }
 
 
@@ -848,6 +847,7 @@ ul {
     }
 
     .liens-utiles {
+        margin-top: 20%;
         margin-bottom: 7%;
         margin-left: auto;
         margin-right: auto;
@@ -869,6 +869,36 @@ ul {
     }
 
     .liens-utiles a {
+        text-decoration: none;
+        color: #2b2b2b;
+        display: block;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    .liens-utiles2 {
+        margin-top: 10%;
+        margin-bottom: 7%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #9ae9d0;
+        padding: 1%;
+        border-radius: 30px;
+        width: 95%;
+    }
+
+    .liens-utiles2 a:hover {
+        color: #0cbcf2;
+
+    }
+
+    .liens-utiles2 h2 {
+        font-size: 23px;
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+
+    .liens-utiles2 a {
         text-decoration: none;
         color: #2b2b2b;
         display: block;
