@@ -570,6 +570,10 @@ ul {
 /*  Small device */
 @media screen and (max-width:767.98px) {
 
+    .nos-missions {
+        margin-bottom: 10%;
+    }
+
     .hr-mobile {
         display: flex;
         color: #000;
