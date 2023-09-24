@@ -595,7 +595,7 @@ ul {
 
 .plan-carteee__header {
     padding: 15px;
-    background: #ffbd59;
+    background: #0cbcf2;
     color: #ffffff;
 }
 
@@ -660,7 +660,7 @@ ul {
     color: #ffffff;
     background: #ffbd59;
     border-radius: 5px;
-    border: 1px solid #ffbd59;
+    border: 1px solid #0cbcf2;
     text-transform: uppercase;
     letter-spacing: 0.02em;
     font-weight: bold;
@@ -1069,7 +1069,7 @@ ul {
 
     .plan-carteee__header {
         padding: 15px;
-        background: #ffbd59;
+        background: #0cbcf2;
         color: #ffffff;
     }
 
@@ -1134,12 +1134,11 @@ ul {
         color: #ffffff;
         background: #ffbd59;
         border-radius: 5px;
-        border: 1px solid #ffbd59;
+        border: 1px solid #0cbcf2;
         text-transform: uppercase;
         letter-spacing: 0.02em;
         font-weight: bold;
     }
-
 
     .plan-carteee__cost {
         margin: 0;
