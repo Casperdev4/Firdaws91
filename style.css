@@ -164,17 +164,6 @@ h5 {
     position: relative;
 }
 
-.texte-image-index {
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -50%);
-    color: aliceblue;
-    font-size: 330%;
-    text-align: center;
-    font-weight: 100;
-}
-
 .imagepuits {
     display: flex;
     justify-content: center;
@@ -703,7 +692,21 @@ ul {
 /*  Small device */
 @media screen and (max-width:767.98px) {
 
+    h3 {
+        color: rgb(2, 2, 2);
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 25%;
+        margin-bottom: 7%;
+    }
+
+    .texte-index-mobile p {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
     .nos-missions {
+        margin-top: 15%;
         margin-bottom: 10%;
     }
 
