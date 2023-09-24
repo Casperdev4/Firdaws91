@@ -666,7 +666,6 @@ ul {
     font-weight: bold;
 }
 
-
 .plan-carteee__cost {
     margin: 0;
     text-align: center;
@@ -685,6 +684,11 @@ ul {
     text-align: center;
     font-size: 0.9em;
     color: #000000;
+}
+
+.icon-paypal {
+    color: #2651b5;
+    font-size: 22px;
 }
 
 .image123-mobile,
