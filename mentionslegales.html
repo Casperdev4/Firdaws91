@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Mentions légales</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./logo/apple-icon-32x32.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="./logo/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./logo/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./logo/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./logo/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./logo/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./logo/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./logo/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./logo/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./logo/apple-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./logo/apple-icon-256x256.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./logo/android-icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./logo/android-icon-57x57.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./logo/android-icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./logo/android-icon-192x192.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./logo/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="mentions-legales">
+    <h1>Mentions Légales</h1>
+    <h5>Association :</h5>
+    <h6>Association Firdaws 91</h6>
+    <h5>Siège Social :</h5>
+    <h6>87 allée Joachim de Bellay, 77190 Dammarie-Les-Lys</h6>
+    <h5>E-mail de contact :</h5>
+    <h6>contact.firdaws91@gmail.com</h6>
+    <h5>Numéro d'Identification :</h5>
+    <h6>W772010744</h6>
+    <h5>Directeur de la Publication :</h5>
+    <h6>Anouar CHBARY et Bilal ALLAM</h6>
+    <h5>Hébergeur du site web :</h5>
+    <h6>IONOS</h6>
+</div>
+    <div class="liens-utile2-container">
+        <div class="liens-utiles2">
+            <h2>Contact</h2>
+            <a href="https://wa.me/" target="_blank"><ion-icon class="iconwhatsapp" name="logo-whatsapp"></ion-icon>
+                WhatsApp</a>
+            <a href="mailto:contact@webprime.fr"><ion-icon class="icon-mail" name="mail-outline"></ion-icon>
+                contact.firdaws91@gmail.com</a>
+        </div>
+    </div>
+    <div class="liens-utile2-container">
+        <div class="liens-utiles2">
+            <h2>Liens utiles</h2>
+            <a href="mentionslegales.html" target="_blank">Mentions légales</a>
+            <a href="CGU.html" target="_blank">Conditions générales d'utilisation</a>
+            <a href="Politiquedeconfidentialite.html" target="_blank">Politique de Confidentialité</a>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script> function toggleMenu() {
+            const navbar = document.querySelector('.navbar');
+            const burger = document.querySelector('.burger');
+
+            burger.addEventListener('click', (e) => {
+                navbar.classList.toggle('show-nav');
+            });
+            // bonus
+            const navbarLinks = document.querySelectorAll('.navbar a');
+            navbarLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    navbar.classList.toggle('show-nav');
+                });
+            })
+
+        }
+        toggleMenu();
+    </script>
+</body>
+
+</html>
