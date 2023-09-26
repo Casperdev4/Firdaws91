@@ -5,23 +5,23 @@
 <loc>https://firdaws91.fr/index.html</loc>
     <image:image>
         <image:loc>https://www.firdaws91.fr/missionpuits.webp</image:loc>
-        <image:caption>image-creation-sites-web</image:caption>
-        <image:title>creation-sites-web</image:title>
+        <image:caption>image-puits</image:caption>
+        <image:title>puits</image:title>
     </image:image>
         <image:image>
         <image:loc>https://www.firdaws91.fr/missionmaraudes.webp</image:loc>
-        <image:caption>image-referencement-seo</image:caption>
-        <image:title>referencement-seo</image:title>
+        <image:caption>image-maraude</image:caption>
+        <image:title>maraude</image:title>
     </image:image>
         <image:image>
         <image:loc>https://www.firdaws91.fr/missioncolis.webp</image:loc>
-        <image:caption>image-google-page-speed-insights</image:caption>
-        <image:title>google-page-speed-insights</image:title>
+        <image:caption>image-colis-alimentaires</image:caption>
+        <image:title>colis-alimentaires</image:title>
     </image:image>
         <image:image>
         <image:loc>https://www.firdaws91.fr/imageindex.webp</image:loc>
-        <image:caption>image-google-page-speed-insights</image:caption>
-        <image:title>google-page-speed-insights</image:title>
+        <image:caption>image-partage</image:caption>
+        <image:title>partage</image:title>
     </image:image>
 </url>
 
@@ -29,18 +29,18 @@
 <loc>https://firdaws91.fr/puits.html</loc>
     <image:image>
         <image:loc>https://www.webprime.fr/enfantbois.webp</image:loc>
-        <image:caption>image-site-vitrine</image:caption>
-        <image:title>site-vitrine</image:title>
+        <image:caption>image-puits</image:caption>
+        <image:title>puits-afrique-asie</image:title>
     </image:image>
         <image:image>
         <image:loc>https://www.webprime.fr/imagepuits.webp</image:loc>
-        <image:caption>image-site-catalogue</image:caption>
-        <image:title>site-catalogue</image:title>
+        <image:caption>image-puits-afrique</image:caption>
+        <image:title>puits-afrique</image:title>
     </image:image>
         <image:image>
         <image:loc>https://www.webprime.fr/puitscamb.webp</image:loc>
-        <image:caption>image-site-e-commerce</image:caption>
-        <image:title>site-e-commerce</image:title>
+        <image:caption>image-puits-asie</image:caption>
+        <image:title>puits-asie</image:title>
     </image:image>
 </url>
 
@@ -48,8 +48,8 @@
 <loc>https://firdaws91.fr/maraude.html</loc>
     <image:image>
         <image:loc>https://www.webprime.fr/imagemaraude.jpg</image:loc>
-        <image:caption>image-google-ads</image:caption>
-        <image:title>google-ads</image:title>
+        <image:caption>image-maraude</image:caption>
+        <image:title>maraude</image:title>
     </image:image>
 </url>
 
@@ -57,8 +57,8 @@
 <loc>https://firdaws91.fr/dons.html</loc>
     <image:image>
         <image:loc>https://www.webprime.fr/colisalim.jpg</image:loc>
-        <image:caption>image-google-ads</image:caption>
-        <image:title>google-ads</image:title>
+        <image:caption>image-colis-alimentaires</image:caption>
+        <image:title>colis-alimentaires</image:title>
     </image:image>
 </url>
 
