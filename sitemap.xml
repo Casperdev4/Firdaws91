@@ -1,73 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 <url>
-<loc>https://www.firdaws91.fr/index.html</loc>
+<loc>https://firdaws91.fr/index.html</loc>
     <image:image>
         <image:loc>https://www.firdaws91.fr/missionpuits.webp</image:loc>
-        <image:caption>image-puits</image:caption>
-        <image:title>puits-afrique-asie</image:title>
+        <image:caption>image-creation-sites-web</image:caption>
+        <image:title>creation-sites-web</image:title>
     </image:image>
         <image:image>
         <image:loc>https://www.firdaws91.fr/missionmaraudes.webp</image:loc>
-        <image:caption>image-maraude</image:caption>
-        <image:title>maraude</image:title>
+        <image:caption>image-referencement-seo</image:caption>
+        <image:title>referencement-seo</image:title>
     </image:image>
-        </image:image>
         <image:image>
         <image:loc>https://www.firdaws91.fr/missioncolis.webp</image:loc>
-        <image:caption>image-colis-alimentaires</image:caption>
-        <image:title>colis-alimentaires</image:title>
-    </image:image>    </image:image>
-</url>
-
-<url>
-<loc>https://www.firdaws91.fr/puits.html</loc>
-    <image:image>
-        <image:loc>https://www.firdaws91.fr/enfantbois.webp</image:loc>
-        <image:caption>image-puits-afrique-asie</image:caption>
-        <image:title>puits-afrique-asie</image:title>
+        <image:caption>image-google-page-speed-insights</image:caption>
+        <image:title>google-page-speed-insights</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.firdaws91.fr/imagepuits.webp</image:loc>
-        <image:caption>image-puits-afrique</image:caption>
-        <image:title>puits-afrique</image:title>
+        <image:loc>https://www.firdaws91.fr/imageindex.webp</image:loc>
+        <image:caption>image-google-page-speed-insights</image:caption>
+        <image:title>google-page-speed-insights</image:title>
+    </image:image>
+</url>
+
+<url>
+<loc>https://firdaws91.fr/puits.html</loc>
+    <image:image>
+        <image:loc>https://www.webprime.fr/enfantbois.webp</image:loc>
+        <image:caption>image-site-vitrine</image:caption>
+        <image:title>site-vitrine</image:title>
     </image:image>
         <image:image>
-        <image:loc>https://www.firdaws91.fr/puitscamb.webp</image:loc>
-        <image:caption>image-puits-asie</image:caption>
-        <image:title>puits-asie</image:title>
+        <image:loc>https://www.webprime.fr/imagepuits.webp</image:loc>
+        <image:caption>image-site-catalogue</image:caption>
+        <image:title>site-catalogue</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.webprime.fr/puitscamb.webp</image:loc>
+        <image:caption>image-site-e-commerce</image:caption>
+        <image:title>site-e-commerce</image:title>
     </image:image>
 </url>
 
 <url>
-<loc>https://www.firdaws91.fr/maraude.html</loc>
+<loc>https://firdaws91.fr/maraude.html</loc>
     <image:image>
-        <image:loc>https://www.firdaws91.fr/imagemaraude.jpg</image:loc>
-        <image:caption>image-maraude</image:caption>
-        <image:title>maraude</image:title>
+        <image:loc>https://www.webprime.fr/imagemaraude.jpg</image:loc>
+        <image:caption>image-google-ads</image:caption>
+        <image:title>google-ads</image:title>
     </image:image>
 </url>
 
 <url>
-<loc>https://www.firdaws91.fr/dons.html</loc>
+<loc>https://firdaws91.fr/dons.html</loc>
     <image:image>
-        <image:loc>https://www.firdaws91.fr/colisalim.jpg</image:loc>
-        <image:caption>image-colis-alimentaires</image:caption>
-        <image:title>colis-alimentaires</image:title>
+        <image:loc>https://www.webprime.fr/colisalim.jpg</image:loc>
+        <image:caption>image-google-ads</image:caption>
+        <image:title>google-ads</image:title>
     </image:image>
 </url>
 
 <url>
-<loc>https://www.firdaws91.fr/tel:0767930456</loc>
+<loc>https://firdaws91.fr/apropos.html</loc>
 </url>
 
 <url>
-<loc>https://www.firdaws91.fr/Mentionslegales.html</loc>
+<loc>https://firdaws91.fr/mentionslegales.html</loc>
 </url>
 
 <url>
-<loc>https://www.firdaws91.fr/CGV.html</loc>
+<loc>https://firdaws91.fr/CGU.html</loc>
 </url>
-
 </urlset>
