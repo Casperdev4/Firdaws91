@@ -70,20 +70,20 @@ h4 {
 }
 
 h5 {
-    color: rgb(69, 69, 139);
-    font-size: 18px;
-    text-align: right;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    font-weight: 350;
 }
 
-.h6 {
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -50%);
-    color: aliceblue;
-    font-size: 50px;
-    text-align: center;
-    font-weight: 100;
+h6 {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    font-weight: 300;
 }
 
 .hr {
