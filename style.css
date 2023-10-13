@@ -727,6 +727,18 @@ ul {
         margin-bottom: 7%;
     }
 
+    .texte-index-mobile {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 0.5s, transform 0.5s;
+      }
+      
+      .texte-index-mobile.slide-up {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      
+
     .nos-missions {
         margin-top: 15%;
         margin-bottom: 10%;

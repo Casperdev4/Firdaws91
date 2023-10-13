@@ -146,30 +146,42 @@
     <div class="voir-index1-mobile"><a href="colis.html">VOIR ></a></div>
     <div class="caritative-index">
         <h3>Qu'est ce qu'est une association caritative ?</h3>
-        <p><strong>Une association caritative</strong> est une organisation à but <strong class="strong-color">non lucratif</strong> dont l'objectif principal est de mener des
+        <p><strong>Une association caritative</strong> est une organisation à but <strong class="strong-color">non
+                lucratif</strong> dont l'objectif principal est de mener des
             activités sociales en vue d'aider des causes humanitaires, des groupes défavorisés ou
-            des problèmes sociaux. Ces <strong class="strong-color">associations</strong> sont généralement créées par des individus ou des groupes de
-            personnes partageant une préoccupation commune pour le <strong class="strong-color">bien-être</strong> de la société.<br><br>
-            <strong>But Non Lucratif</strong> : Les <strong class="strong-color">associations caritatives</strong> n'ont pas pour objectif de réaliser des profits financiers.
+            des problèmes sociaux. Ces <strong class="strong-color">associations</strong> sont généralement créées par
+            des individus ou des groupes de
+            personnes partageant une préoccupation commune pour le <strong class="strong-color">bien-être</strong> de la
+            société.<br><br>
+            <strong>But Non Lucratif</strong> : Les <strong class="strong-color">associations caritatives</strong> n'ont
+            pas pour objectif de réaliser des profits financiers.
             Tout l'argent collecté est utilisé pour soutenir la cause spécifique pour laquelle
             l'association a été créée.<br><br>
 
-            <strong>Mission Sociale</strong> : Elles ont une <strong class="strong-color">mission sociale</strong> définie, qui peut inclure des <strong class="strong-color">actions humanitaires</strong>, des
+            <strong>Mission Sociale</strong> : Elles ont une <strong class="strong-color">mission sociale</strong>
+            définie, qui peut inclure des <strong class="strong-color">actions humanitaires</strong>, des
             secours en cas de catastrophe, l'aide aux personnes défavorisées, la sensibilisation à des questions
             sociales, etc.<br><br>
 
-            <strong>Engagement Bénévole</strong> : Les membres de ces associations sont souvent des <strong class="strong-color">bénévoles</strong> qui consacrent leur temps,
+            <strong>Engagement Bénévole</strong> : Les membres de ces associations sont souvent des <strong
+                class="strong-color">bénévoles</strong> qui consacrent leur temps,
             leurs compétences et leurs ressources au service de la mission de l'association.<br><br>
 
-            <strong>Collecte de Fonds</strong> : Les associations caritatives dépendent souvent de la collecte de fonds pour financer
-            leurs activités. Cela peut inclure des <strong class="strong-color">dons de particuliers</strong>, <strong class="strong-color">d'entreprises</strong>, de <strong class="strong-color">subventions gouvernementales</strong>,
+            <strong>Collecte de Fonds</strong> : Les associations caritatives dépendent souvent de la collecte de fonds
+            pour financer
+            leurs activités. Cela peut inclure des <strong class="strong-color">dons de particuliers</strong>, <strong
+                class="strong-color">d'entreprises</strong>, de <strong class="strong-color">subventions
+                gouvernementales</strong>,
             etc.<br><br>
 
-            <strong>Transparence</strong> : Les associations caritatives sont tenues d'être <strong class="strong-color">transparentes</strong> quant à la manière
+            <strong>Transparence</strong> : Les associations caritatives sont tenues d'être <strong
+                class="strong-color">transparentes</strong> quant à la manière
             dont elles utilisent les fonds qui leur sont confiés. La France a des réglementations spécifiques pour
             garantir cette transparence.<br><br>
 
-            <strong>Impact Social</strong> : L'objectif ultime est d'avoir un <strong class="strong-color">impact positif</strong> sur la société en contribuant à améliorer les conditions de vie des personnes dans le besoin, ou à sensibiliser le
+            <strong>Impact Social</strong> : L'objectif ultime est d'avoir un <strong class="strong-color">impact
+                positif</strong> sur la société en contribuant à améliorer les conditions de vie des personnes dans le
+            besoin, ou à sensibiliser le
             public à des questions importantes.<br><br>
             <i>On ne peut pas aider tout le monde.. mais tout le monde peut aider une personne.</i>
         </p>
@@ -366,6 +378,30 @@
         }
         toggleMenu();
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.8
+            };
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('slide-up');
+                    }
+                });
+            }, options);
+
+            const elements = document.querySelectorAll('.texte-index-mobile');
+
+            elements.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+
 </body>
 
 </html>
