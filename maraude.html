@@ -253,6 +253,29 @@
     }
     toggleMenu();
 </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.8
+        };
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('slide-up');
+                }
+            });
+        }, options);
+
+        const elements = document.querySelectorAll('.rectangle_gris, .bouton-don, .bouton-puits');
+
+        elements.forEach(element => {
+            observer.observe(element);
+        });
+    });
+</script>
 </body>
 
 </html>

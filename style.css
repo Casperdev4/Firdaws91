@@ -1191,20 +1191,29 @@ ul {
         color: #000000;
     }
 
-    .bouton-puits {
+    .bouton-don, .bouton-puits {
         margin-top: 8%;
         margin-bottom: 10%;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 0.5s, transform 0.5s;
     }
 
-    .bouton-don {
-        margin-top: 8%;
-        margin-bottom: 10%;
+    .bouton-don.slide-up, .bouton-puits.slide-up {
+        opacity: 1;
+        transform: translateY(0);
     }
 
     .rectangle_gris {
-        margin-top: 13%;
-        margin-bottom: 10%;
-    }
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 0.5s, transform 0.5s;
+      }
+      
+    .rectangle_gris.slide-up {
+        opacity: 1;
+        transform: translateY(0);
+      }
 
     .imageindex,
     .images-index123,
