@@ -694,7 +694,8 @@ ul {
 .image123-mobile,
 .voir-index1-mobile,
 .texte-index-mobile,
-.hr-mobile, .plan-carteee-mobile {
+.hr-mobile,
+.plan-carteee-mobile {
     display: none;
 }
 
@@ -709,7 +710,7 @@ ul {
         text-align: left;
     }
 
-    .hr{
+    .hr {
         margin-top: 8%;
         margin-bottom: 8%;
     }
@@ -727,17 +728,35 @@ ul {
         margin-bottom: 7%;
     }
 
-    .texte-index-mobile {
+    .texte-index-mobile, .caritative-index {
         opacity: 0;
         transform: translateY(50px);
         transition: opacity 0.5s, transform 0.5s;
-      }
-      
-    .texte-index-mobile.slide-up {
+    }
+
+    .texte-index-mobile.slide-up, .caritative-index.slide-up {
         opacity: 1;
         transform: translateY(0);
-      }
-      
+    }
+
+    .texte-index-mobile {
+        display: flex;
+        justify-content: center;
+        color: rgb(19, 19, 19);
+        font-weight: 350;
+        font-size: 18px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+        background-color: rgb(238, 238, 238);
+        width: 100%;
+    }
+
+    .texte-index-mobile p {
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+
     .nos-missions {
         margin-top: 15%;
         margin-bottom: 10%;
@@ -995,24 +1014,6 @@ ul {
         text-decoration: none;
     }
 
-    .texte-index-mobile {
-        display: flex;
-        justify-content: center;
-        color: rgb(19, 19, 19);
-        font-weight: 350;
-        font-size: 18px;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        text-align: center;
-        background-color: rgb(238, 238, 238);
-        width: 100%;
-    }
-
-    .texte-index-mobile p {
-        margin-top: 7%;
-        margin-bottom: 7%;
-    }
-
     a:hover {
         color: rgb(20, 139, 230);
     }
@@ -1191,7 +1192,8 @@ ul {
         color: #000000;
     }
 
-    .bouton-don, .bouton-puits {
+    .bouton-don,
+    .bouton-puits {
         margin-top: 8%;
         margin-bottom: 10%;
         opacity: 0;
@@ -1199,7 +1201,8 @@ ul {
         transition: opacity 0.5s, transform 0.5s;
     }
 
-    .bouton-don.slide-up, .bouton-puits.slide-up {
+    .bouton-don.slide-up,
+    .bouton-puits.slide-up {
         opacity: 1;
         transform: translateY(0);
     }
@@ -1208,15 +1211,16 @@ ul {
         opacity: 0;
         transform: translateY(50px);
         transition: opacity 0.5s, transform 0.5s;
-      }
-      
+    }
+
     .rectangle_gris.slide-up {
         opacity: 1;
         transform: translateY(0);
-      }
+    }
 
     .images-index123,
-    .voir-index123, .plan-carteee-container  {
+    .voir-index123,
+    .plan-carteee-container {
         display: none;
     }
 
