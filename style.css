@@ -1226,6 +1226,10 @@ ul {
         transform: translateY(0);
     }
 
+    .imagecolis-puits-maraudes {
+        margin-top: 10%;
+    }
+
     .images-index123,
     .voir-index123,
     .plan-carteee-container {
