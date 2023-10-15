@@ -782,14 +782,8 @@ ul {
         color: var(--navbar-color);
         background-image: url('palestine.webp');
         background-size: 100% 100%; /* Ajustez la hauteur selon vos besoins */
-       
         max-height: 15em;
         min-height: 15em;
-    }
-
-    .navbar__logo img {
-        max-height: 150px;
-        min-height: 150px;
     }
 
     .navbar__links {
@@ -835,10 +829,6 @@ ul {
     .navbar__link>a:hover {
         padding-left: 2rem;
         letter-spacing: 5px;
-    }
-
-    .navbar__logo img {
-        height: 13em;
     }
 
     .burger {
