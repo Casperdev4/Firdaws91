@@ -773,6 +773,24 @@ ul {
 
     }
 
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 0.4rem;
+        background: var(--navbar-bg-color);
+        color: var(--navbar-color);
+        background-color: #ffffff;
+        max-height: 15em;
+        min-height: 15em;
+    }
+
+    .navbar__logo img {
+        max-height: 150px; /* ajustez selon vos besoins */
+        min-height: 150px; /* ajustez selon vos besoins */
+        margin-top: 5%;
+    }
+
     .navbar__links {
         overflow: hidden;
         display: flex;
