@@ -777,10 +777,12 @@ ul {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-size: 0.4rem;
+        font-size: 0.5rem;
         background: var(--navbar-bg-color);
         color: var(--navbar-color);
-        background-color: #ffffff;
+        background-image: url('palestine.webp');
+        background-size: 100% 100%; /* Ajustez la hauteur selon vos besoins */
+       
         max-height: 15em;
         min-height: 15em;
     }
@@ -788,7 +790,6 @@ ul {
     .navbar__logo img {
         max-height: 150px;
         min-height: 150px;
-        margin-top: 10%;
     }
 
     .navbar__links {
@@ -810,7 +811,6 @@ ul {
     }
 
     .show-nav .navbar__links {
-
         width: 100vw;
         transform: translateX(0);
     }
