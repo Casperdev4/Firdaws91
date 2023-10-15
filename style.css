@@ -786,8 +786,8 @@ ul {
     }
 
     .navbar__logo img {
-        max-height: 150px; /* ajustez selon vos besoins */
-        min-height: 150px; /* ajustez selon vos besoins */
+        max-height: 150px;
+        min-height: 150px;
         margin-top: 5%;
     }
 
