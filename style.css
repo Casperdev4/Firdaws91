@@ -728,13 +728,15 @@ ul {
         margin-bottom: 7%;
     }
 
-    .texte-index-mobile, .caritative-index {
+    .texte-index-mobile,
+    .caritative-index {
         opacity: 0;
         transform: translateY(50px);
         transition: opacity 0.5s, transform 0.5s;
     }
 
-    .texte-index-mobile.slide-up, .caritative-index.slide-up {
+    .texte-index-mobile.slide-up,
+    .caritative-index.slide-up {
         opacity: 1;
         transform: translateY(0);
     }
@@ -773,6 +775,10 @@ ul {
 
     }
 
+    body {
+        margin-top: 42%;
+    }
+
     .navbar {
         display: flex;
         align-items: center;
@@ -781,9 +787,14 @@ ul {
         background: var(--navbar-bg-color);
         color: var(--navbar-color);
         background-image: url('palestine.webp');
-        background-size: 100% 100%; /* Ajustez la hauteur selon vos besoins */
+        background-size: 100% 100%;
         max-height: 15em;
         min-height: 15em;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
     }
 
     .navbar__links {
