@@ -827,6 +827,7 @@ ul {
 
     .show-nav .navbar__link {
         transform: translateX(0);
+        text-align: center;
     }
 
     .navbar__link>a {
