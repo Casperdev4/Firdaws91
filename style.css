@@ -1227,13 +1227,13 @@ ul {
         transform: translateY(0);
     }
 
-    .rectangle_gris {
+    .rectangle_gris, .financer-puits p {
         opacity: 0;
         transform: translateY(50px);
         transition: opacity 0.5s, transform 0.5s;
     }
 
-    .rectangle_gris.slide-up {
+    .rectangle_gris.slide-up, .financer-puits p.slide-up {
         opacity: 1;
         transform: translateY(0);
     }
