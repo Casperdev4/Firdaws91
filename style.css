@@ -37,6 +37,7 @@ p {
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
+    line-height: 1.4;
 }
 
 .caritative-index p {
@@ -832,7 +833,7 @@ ul {
     .navbar__link>a {
         display: block;
         padding: 1rem;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         color: var(--navbar-color);
         transition: all .4s ease-in-out;
     }
