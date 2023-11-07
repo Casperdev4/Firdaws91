@@ -490,26 +490,6 @@ ul {
     transform: rotate(-45deg);
 }
 
-.show-nav .first {
-    transition: all 1s ease-out;
-}
-
-.show-nav .second {
-    transition: all 1.3s ease-out;
-}
-
-.show-nav .third {
-    transition: all 1.6s ease-out;
-}
-
-.show-nav .four {
-    transition: all 1.9s ease-out;
-}
-
-.show-nav .fifth {
-    transition: all 2.2s ease-out;
-}
-
 .navbar__link>a::after {
     display: block;
     content: "";
@@ -897,26 +877,6 @@ ul {
 
     .show-nav .bar::after {
         transform: rotate(-45deg);
-    }
-
-    .show-nav .first {
-        transition: all 1s ease-out;
-    }
-
-    .show-nav .second {
-        transition: all 1.3s ease-out;
-    }
-
-    .show-nav .third {
-        transition: all 1.6s ease-out;
-    }
-
-    .show-nav .four {
-        transition: all 1.9s ease-out;
-    }
-
-    .show-nav .fifth {
-        transition: all 2.2s ease-out;
     }
 
     .imageindex h6 {
