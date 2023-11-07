@@ -791,7 +791,7 @@ ul {
         right: 0;
         background: var(--navbar-bg-color);
         transform: translateX(110%);
-        transition: all .5s ease-in-out;
+        transition: all .3s ease-in-out;
         z-index: 999;
     }
 
@@ -802,7 +802,7 @@ ul {
 
     .navbar__link {
         transform: translateX(101%);
-        transition: all .5s ease-in-out;
+        transition: all .3s ease-in-out;
     }
 
     .show-nav .navbar__link {
