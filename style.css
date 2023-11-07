@@ -842,7 +842,7 @@ ul {
         height: 4px;
         border-radius: 3px;
         background: var(--navbar-color);
-        transition: all .5s ease-in-out;
+        transition: all .3s ease-in-out;
         z-index: 999;
     }
 
@@ -855,7 +855,7 @@ ul {
         left: 0;
         background: var(--navbar-color);
         border-radius: 3px;
-        transition: all .5s ease-in-out;
+        transition: all .3s ease-in-out;
     }
 
     .bar::before {
