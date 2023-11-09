@@ -13,6 +13,8 @@ h1 {
     color: rgb(2, 2, 2);
     text-align: center;
     margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 h3 {
@@ -694,6 +696,10 @@ ul {
     .hr {
         margin-top: 8%;
         margin-bottom: 8%;
+    }
+
+    h1 {
+        font-size: 25px;
     }
 
     h2 {
