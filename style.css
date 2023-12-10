@@ -700,8 +700,9 @@ body {
     .logo {
         display: flex;
         align-items: center;
-        max-height: 100px;
-        min-height: 100px;
+        max-height: 120px;
+        min-height: 120px;
+        margin-left: 0;
     }
 
     .icon {
