@@ -18,22 +18,42 @@
 </head>
 
 <body>
-    <div class="navigation">
-        <nav class="navbar light-mode" role="navigation">
-            <div class="navbar__logo"><a href="index.html"><img class="logo" src="./logo/Aicha750.png"
-                        alt="Firdaws"></a></div>
-            <ul class="navbar__links">
-                <li class="navbar__link first"><a href="index.html"><ion-icon name="home-outline"></ion-icon> Accueil</a></li>
-                <li class="navbar__link second"><a href="puits.html"><ion-icon name="water-outline"></ion-icon> Puits</a></li>
-                <li class="navbar__link third"><a href="maraude.html"><ion-icon name="body-outline"></ion-icon> Maraudes</a></li>
-                <li class="navbar__link four"><a href="colis.html"><ion-icon name="basket-outline"></ion-icon> Colis</a></li>
-                <li class="navbar__link fifth"><a href="apropos.html"><ion-icon name="information-circle-outline"></ion-icon> à propos</a></li>
-            </ul>
-            <button class="burger">
-                <span class="bar"></span>
-            </button>
-        </nav>
-    </div>
+    <nav class="navbar">
+        <a href="index.html" class="logo-link">
+            <img src="./logo/Aicha750.png" alt="association" class="logo">
+        </a> 
+        <label for="btn" class="icon">
+            <svg viewBox="0 0 100 80" width="40" height="40">
+                <rect width="90" height="11"></rect>
+                <rect y="26" width="70" height="11"></rect>
+                <rect y="52" width="80" height="11"></rect>
+            </svg>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <label for="btn2" class="show">Nos Missions +</label>
+                <input type="checkbox" id="btn2">
+                <ul class="dropdown">
+                    <li class="drop-item">
+                        <a href="colis.html">Colis Alimentaires</a>
+                    </li>
+                    <li class="drop-item">
+                        <a href="puits.html">Puits</a>
+                    </li>
+                    <li class="drop-item">
+                        <a href="maraude.html">Maraudes</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="apropos.html">à propos</a>
+            </li>
+        </ul>
+    </nav>
     <div class="pdc">
         <h1>Politique de Confidentialité</h1>
         <h5>1. Collecte des Informations Personnelles</h5>
@@ -83,24 +103,19 @@
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script> function toggleMenu() {
-            const navbar = document.querySelector('.navbar');
-            const burger = document.querySelector('.burger');
-
-            burger.addEventListener('click', (e) => {
-                navbar.classList.toggle('show-nav');
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var menuToggle = document.getElementById("btn");
+          var navLinks = document.querySelectorAll(".nav-menu a");
+      
+          // Ferme le menu lorsqu'un lien est cliqué
+          navLinks.forEach(function (link) {
+            link.addEventListener("click", function () {
+              menuToggle.checked = false;
             });
-            // bonus
-            const navbarLinks = document.querySelectorAll('.navbar a');
-            navbarLinks.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    navbar.classList.toggle('show-nav');
-                });
-            })
-
-        }
-        toggleMenu();
-    </script>
+          });
+        });
+      </script>
 </body>
 
 </html>
