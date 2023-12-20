@@ -719,7 +719,7 @@ body {
     }
 
     .nav-menu {
-        background-color: #0cbcf2;
+        background-color: rgb(238, 238, 238);
         position: absolute;
         top: 70px;
         left: 0;
@@ -730,7 +730,7 @@ body {
     .nav-item a,
     .drop-item a,
     .show {
-        color: #ffffff;
+        color: #000000;
         text-decoration: none;
         line-height: 70px;
         font-size: 1.2rem;
