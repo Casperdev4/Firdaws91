@@ -680,7 +680,7 @@ body {
     /*  Navigation */
 
     .navbar {
-        background-color: #ffffff;
+        background-color: rgb(238, 238, 238);
         padding: 10px;
         display: flex;
         justify-content: space-between;
