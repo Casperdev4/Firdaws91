@@ -28,7 +28,6 @@ h3 {
 
 ul {
     color: rgb(42, 42, 83);
-
 }
 
 p {
@@ -679,7 +678,6 @@ body {
     /*  Navigation */
 
     .navbar {
-        background-color: rgb(238, 238, 238);
         padding: 10px;
         display: flex;
         justify-content: space-between;
@@ -701,10 +699,10 @@ body {
     }
 
     .icon {
-        fill: #000000;
-        cursor: pointer;
         display: flex;
         align-items: center;
+        fill: #000000;
+        cursor: pointer;
     }
 
     .navbar input,
