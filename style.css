@@ -386,7 +386,7 @@ body {
 }
 
 .nav-menu {
-    background-color: #0cbcf2;
+    background-color: #ffffff;
     position: absolute;
     top: 70px;
     left: 0;
@@ -716,7 +716,7 @@ body {
     }
 
     .nav-menu {
-        background-color: rgb(238, 238, 238);
+        background-color: #ffffff;
         position: absolute;
         top: 70px;
         left: 0;

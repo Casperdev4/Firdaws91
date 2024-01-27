@@ -10,7 +10,6 @@
     <link rel="apple-touch-icon" type="image/png" sizes="96x96" href="https://firdaws91.fr/logo/apple-icon-96x96.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://firdaws91.fr/logo/android-icon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="https://firdaws91.fr/logo/android-icon-96x96.png">
-    <link rel="manifest" href="https://firdaws91.fr/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="https://firdaws91.fr/logo/ms-icon-32x32.png">
     <meta name="msapplication-TileImage" content="https://firdaws91.fr/logo/ms-icon-96x96.png">
@@ -18,46 +17,66 @@
 </head>
 
 <body>
-    <div class="navigation">
-        <nav class="navbar light-mode" role="navigation">
-            <div class="navbar__logo"><a href="index.html"><img class="logo" src="./logo/Aicha750.png"
-                        alt="Firdaws"></a></div>
-            <ul class="navbar__links">
-                <li class="navbar__link first"><a href="index.html"><ion-icon name="home-outline"></ion-icon> Accueil</a></li>
-                <li class="navbar__link second"><a href="puits.html"><ion-icon name="water-outline"></ion-icon> Puits</a></li>
-                <li class="navbar__link third"><a href="maraude.html"><ion-icon name="body-outline"></ion-icon> Maraudes</a></li>
-                <li class="navbar__link four"><a href="colis.html"><ion-icon name="basket-outline"></ion-icon> Colis</a></li>
-                <li class="navbar__link fifth"><a href="apropos.html"><ion-icon name="information-circle-outline"></ion-icon> à propos</a></li>
-            </ul>
-            <button class="burger">
-                <span class="bar"></span>
-            </button>
-        </nav>
-    </div>
+    <nav class="navbar">
+        <a href="index.html" class="logo-link">
+            <img src="./logo/Aicha750.png" alt="association" class="logo">
+        </a>
+        <label for="btn" class="icon">
+            <svg viewBox="0 0 100 80" width="40" height="40">
+                <rect width="80" height="11"></rect>
+                <rect y="26" width="60" height="11"></rect>
+                <rect y="52" width="70" height="11"></rect>
+            </svg>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html">ACCUEIL</a>
+            </li>
+            <li class="nav-item">
+                <label for="btn2" class="show">NOS MISSIONS +</label>
+                <input type="checkbox" id="btn2">
+                <ul class="dropdown">
+                    <li class="drop-item">
+                        <a href="colis.html">COLIS ALIMENTAIRES</a>
+                    </li>
+                    <li class="drop-item">
+                        <a href="puits.html">PUITS</a>
+                    </li>
+                    <li class="drop-item">
+                        <a href="maraude.html">MARAUDES</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="apropos.html">Qui sommes nous ?</a>
+            </li>
+        </ul>
+    </nav>
     <div class="mentions-legales">
-    <h1>Mentions Légales</h1>
-    <h5>Association :</h5>
-    <h6>Association Firdaws 91</h6>
-    <h5>Siège Social :</h5>
-    <h6>87 allée Joachim de Bellay, 77190 Dammarie-Les-Lys</h6>
-    <h5>E-mail de contact :</h5>
-    <h6>contact.firdaws91@gmail.com</h6>
-    <h5>Numéro d'Identification :</h5>
-    <h6>W772010744</h6>
-    <h5>Directeurs de la Publication :</h5>
-    <h6>Anouar CHBARY et Bilal ALLAM</h6>
-    <h5>Hébergeur du site web :</h5>
-    <h6>IONOS</h6>
-</div>
-<div class="liens-utile2-container">
-    <div class="liens-utiles2">
-        <h2>Contact</h2>
-        <a href="https://www.instagram.com/firdaws91_/" target="_blank"><ion-icon name="logo-instagram"></ion-icon>
-            Instagram</a>
-        <a href="mailto:contact@webprime.fr"><ion-icon class="icon-mail" name="mail-outline"></ion-icon>
-            contact.firdaws91@gmail.com</a>
+        <h1>Mentions Légales</h1>
+        <h5>Association :</h5>
+        <h6>Association Firdaws 91</h6>
+        <h5>Siège Social :</h5>
+        <h6>87 allée Joachim de Bellay, 77190 Dammarie-Les-Lys</h6>
+        <h5>E-mail de contact :</h5>
+        <h6>contact.firdaws91@gmail.com</h6>
+        <h5>Numéro d'Identification :</h5>
+        <h6>W772010744</h6>
+        <h5>Directeurs de la Publication :</h5>
+        <h6>Anouar CHBARY et Bilal ALLAM</h6>
+        <h5>Hébergeur du site web :</h5>
+        <h6>IONOS</h6>
     </div>
-</div>
+    <div class="liens-utile2-container">
+        <div class="liens-utiles2">
+            <h2>Contact</h2>
+            <a href="https://www.instagram.com/firdaws91_/" target="_blank"><ion-icon name="logo-instagram"></ion-icon>
+                Instagram</a>
+            <a href="mailto:contact@webprime.fr"><ion-icon class="icon-mail" name="mail-outline"></ion-icon>
+                contact.firdaws91@gmail.com</a>
+        </div>
+    </div>
     <div class="liens-utile2-container">
         <div class="liens-utiles2">
             <h2>Liens utiles</h2>
