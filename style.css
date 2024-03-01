@@ -73,12 +73,7 @@ h2,h5{font-size:20px;margin-top:5%}h5,h6{text-align:left;margin-left:3%}h2{text-
 .eaulavie h2,
 .financer-puits h2{font-size:40px;color:#0f9a26;font-weight:330}.puitsafrique h2,.puitscambodge h2{font-size:33px;color:#0f9a26;font-weight:330}.nos-missions h2{color:#000;font-size:40px;font-weight:80}
 .image_secuinfo{display:flex;justify-content:center;margin-top:5%;margin-bottom:5%}.image_secuinfo img{width:520px}
-.voir-index123 {
-    display: flex;
-    justify-content: center;
-    font-family: Helvetica, sans-serif;
-}
-.image123::after,.image123::before{content:'';position:absolute;background:linear-gradient(45deg,#ffae22,#ad00c1,#0076de,#00c807)}.voir-index1,.voir-index2,.voir-index3{background-color:#0cbcf2;padding:10px 15px;font-size:22px;display:flex;align-items:center;justify-content:center;width:150px;margin-left:auto;margin-right:auto;white-space:nowrap;margin-bottom:7%;border-radius:15px;font-family:Helvetica,sans-serif}.voir-index123 a{color:#000000;text-decoration:none}a:hover{color:#148be6}.images-index123{display:flex;padding:2%;gap:1%}.image123{margin:3% 0;flex:1;position:relative;width:45%;padding:4% 0;font-size:5em;color:#191919;text-align:center;background:#fff}.image123::after{top:-1%;left:-1%;right:-1%;bottom:-1%;z-index:-1}.image123::before{top:0;left:0;right:0;bottom:0;z-index:-2;filter:blur(10px)}.image123+.image123{margin-left:1%}.image-item{width:80%;vertical-align:top}.image-description{margin-top:4%;margin-bottom:-12%;padding:7%;text-align:center;font-size:27%;border-radius:35px}
+.image123::after,.image123::before{content:'';position:absolute;background:linear-gradient(45deg,#ffae22,#ad00c1,#0076de,#00c807)}.images-index123{display:flex;padding:2%;gap:1%}.image123{margin:3% 0;flex:1;position:relative;width:45%;padding:4% 0;font-size:5em;color:#191919;text-align:center;background:#fff}.image123::after{top:-1%;left:-1%;right:-1%;bottom:-1%;z-index:-1}.image123::before{top:0;left:0;right:0;bottom:0;z-index:-2;filter:blur(10px)}.image123+.image123{margin-left:1%}.image-item{width:80%;vertical-align:top}.image-description{margin-top:4%;margin-bottom:-12%;padding:7%;text-align:center;font-size:27%;border-radius:35px}
 * {
     box-sizing: border-box;
     outline: none;
@@ -176,7 +171,6 @@ body {
     .eaulavie h2,.financer-puits h2,.puitsafrique h2,.puitscambodge h2{font-size:1.7em;margin-bottom:10%}
     .eaulavie p,.financer-puits p,.puitsafrique p,.puitscambodge p,.rectangle_gris p,.texte-apropos p,.texte2-apropos p,.àpropos p{font-size:1em}
     .image123::after,.image123::before{content:'';position:absolute;background:linear-gradient(45deg,#ffae22,#ad00c1,#0076de,#00c807)}.image123-mobile{display:flex}.image123{margin:3% 20%;flex:1;width:45%;padding:7% 0;font-size:5em;color:#191919;text-align:center;background:#fff}.image123::after{top:-1%;left:-1%;right:-1%;bottom:-1%;z-index:-1}.image123::before{top:0;left:0;right:0;bottom:0;z-index:-2;filter:blur(10px)}.image123+.image123{margin-left:1%}.image-item{width:90%;vertical-align:top}.image-description{margin-top:5%;background-color:#fff;padding:7%;text-align:center;font-size:27%}
-    .voir-index1-mobile{background-color:#0cbcf2;padding:10px 15px;border-radius:15px;font-size:22px;display:flex;align-items:center;justify-content:center;width:150px;margin-left:auto;margin-right:auto;white-space:nowrap;margin-top:7%;font-family:Helvetica,sans-serif}.voir-index1-mobile a{color:#000000;text-decoration:none}
     .imagepuits img {
         width: 50%;
         border-radius: 50%;
