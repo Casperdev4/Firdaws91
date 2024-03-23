@@ -70,7 +70,7 @@ h1 {font-family:'Times New Roman', Times, serif;}
     font-weight: 100;
 }
 .imageindex img{width:75%;margin-top:3%;margin-bottom:5%}.imageindex{display:flex;justify-content:center;position:relative}
-.imagepuits{display:flex;justify-content:center}.imagepuits img{width:25%;border-radius:50%}
+.imagepuits2, .imagepuits{display:flex;justify-content:center}.imagepuits img{width:25%;border-radius:50%}
 .imagecolis-puits-maraudes{display:flex;justify-content:center}.imagecolis-puits-maraudes img{width:90%;margin-top:3%;margin-bottom:5%}
 .eaulavie p,.financer-puits p,.puitsafrique p,.puitscambodge p{padding-bottom:1%;font-size:18px;text-align:left}
 .eaulavie h2,
@@ -175,8 +175,13 @@ body {
     .eaulavie p,.financer-puits p,.puitsafrique p,.puitscambodge p,.rectangle_gris p,.texte-apropos p,.texte2-apropos p,.àpropos p{font-size:1em}
     .image123::after,.image123::before{content:'';position:absolute;background:linear-gradient(45deg,#ffae22,#ad00c1,#0076de,#00c807)}.image123-mobile{display:flex}.image123{margin:3% 20%;flex:1;width:45%;padding:7% 0;font-size:5em;color:#191919;text-align:center;background:#fff}.image123::after{top:-1%;left:-1%;right:-1%;bottom:-1%;z-index:-1}.image123::before{top:0;left:0;right:0;bottom:0;z-index:-2;filter:blur(10px)}.image123+.image123{margin-left:1%}.image-item{width:90%;vertical-align:top}.image-description{margin-top:5%;background-color:#fff;padding:7%;text-align:center;font-size:27%}
     .imagepuits img {
-        width: 50%;
+        width: 60%;
         border-radius: 50%;
+        margin-top: 5%;
+        margin-bottom: 6%;
+    }
+    .imagepuits2 img {
+        width: 65%;
         margin-top: 5%;
         margin-bottom: 6%;
     }
