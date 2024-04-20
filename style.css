@@ -94,6 +94,7 @@ body {
     color: #2651b5;
     font-size: 22px;
 }
+.mentions {justify-content: center;display: flex;align-items: center;color: #191919;font-size: 15px;text-decoration:none}
 .hr-mobile,.image123-mobile,.plan-carteee-mobile,.texte-index-mobile,.voir-index1-mobile{display:none}
 
 /*  Small device */
