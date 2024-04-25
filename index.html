@@ -24,7 +24,7 @@
     <nav class="navbar">
         <a href="index.html" class="logo-link">
             <img src="./logo/Aicha750.png" alt="association-musulmane" class="logo" loading="lazy" decoding="async">
-        </a> 
+        </a>
         <label for="btn" class="icon">
             <svg viewBox="0 0 100 80" width="40" height="40">
                 <rect width="80" height="11"></rect>
@@ -69,21 +69,25 @@
     </div>
     <div class="images-index123">
         <figure class="image123">
-            <a href="construction-puits.html"><img class="image-item" src="missionpuits.webp" alt="construction-puit" loading="lazy" decoding="async"></a>
+            <a href="construction-puits.html"><img class="image-item" src="missionpuits.webp" alt="construction-puit"
+                    loading="lazy" decoding="async"></a>
             <h2 class="image-description">PUITS</h2>
         </figure>
         <figure class="image123">
-            <a href="maraude.html"><img class="image-item" src="missionmaraudes.webp" alt="maraude-paris" loading="lazy" decoding="async"></a>
+            <a href="maraude.html"><img class="image-item" src="missionmaraudes.webp" alt="maraude-paris" loading="lazy"
+                    decoding="async"></a>
             <h2 class="image-description">MARAUDES</h2>
         </figure>
         <figure class="image123">
-            <a href="colis-alimentaires.html"><img class="image-item" src="missioncolis.webp" alt="colis-alimentaire" loading="lazy" decoding="async"></a>
+            <a href="colis-alimentaires.html"><img class="image-item" src="missioncolis.webp" alt="colis-alimentaire"
+                    loading="lazy" decoding="async"></a>
             <h2 class="image-description">COLIS ALIMENTAIRES</h2>
         </figure>
     </div>
     <div class="image123-mobile">
         <figure class="image123">
-            <a href="construction-puits.html"><img class="image-item" src="missionpuits.webp" alt="construction-puit" loading="lazy" decoding="async"></a>
+            <a href="construction-puits.html"><img class="image-item" src="missionpuits.webp" alt="construction-puit"
+                    loading="lazy" decoding="async"></a>
             <h2 class="image-description">PUITS</h2>
         </figure>
     </div>
@@ -99,7 +103,8 @@
     <hr class="hr-mobile">
     <div class="image123-mobile">
         <figure class="image123">
-            <a href="colis-alimentaires.html"><img class="image-item" src="missioncolis.webp" alt="colis-alimentaire" loading="lazy" decoding="async"></a>
+            <a href="colis-alimentaires.html"><img class="image-item" src="missioncolis.webp" alt="colis-alimentaire"
+                    loading="lazy" decoding="async"></a>
             <h2 class="image-description">COLIS ALIMENTAIRES</h2>
         </figure>
     </div>
@@ -313,6 +318,12 @@
             </div>
         </section>
     </div>
+    <div class="chiffres">
+        <div class="counter" id="donations"></div>
+        <div class="counter" id="wells"></div>
+        <div class="counter" id="packages"></div>
+        <div class="counter" id="people"></div>
+    </div>
     <div class="liens-utile2-container">
         <div class="liens-utiles2">
             <h2>Contact</h2>
@@ -328,15 +339,15 @@
     <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-          var menuToggle = document.getElementById("btn");
-          var navLinks = document.querySelectorAll(".nav-menu a");
-          navLinks.forEach(function (link) {
-            link.addEventListener("click", function () {
-              menuToggle.checked = false;
+            var menuToggle = document.getElementById("btn");
+            var navLinks = document.querySelectorAll(".nav-menu a");
+            navLinks.forEach(function (link) {
+                link.addEventListener("click", function () {
+                    menuToggle.checked = false;
+                });
             });
-          });
         });
-      </script>
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const options = {
@@ -360,7 +371,79 @@
             });
         });
     </script>
+    <script>
+        let targetDonations = 600;
+        let targetWells = 3;
+        let targetPackages = 60;
+        let targetPeople = 240;
+        function updateValues() {
+            const currentDay = new Date().getDate();
+            const currentMonth = new Date().getMonth();
+            if (currentDay !== initialDay) {
+                initialDay = currentDay;
+                targetDonations += 5;
+            }
+            if (currentMonth !== initialMonth) {
+                initialMonth = currentMonth;
+                targetWells += 1;
+                targetPackages += 30;
+                targetPeople += 120;
+            }
+        }
+        function animateCounters() {
+            const counters = document.querySelectorAll('.counter');
+            counters.forEach(counter => {
+                let startValue = 0; // Commence à 0 pour chaque compteur
+                let targetValue;
+                switch (counter.id) {
+                    case "donations":
+                        targetValue = targetDonations;
+                        break;
+                    case "wells":
+                        targetValue = targetWells;
+                        break;
+                    case "packages":
+                        targetValue = targetPackages;
+                        break;
+                    case "people":
+                        targetValue = targetPeople;
+                        break;
+                    default:
+                        targetValue = 0;
+                }
+                const duration = 2000; // Durée de l'animation en millisecondes
+                const startTime = performance.now(); // Heure de début de l'animation
 
+                function step(currentTime) {
+                    const elapsedTime = currentTime - startTime;
+                    const progress = Math.min(elapsedTime / duration, 1); // Progression de l'animation entre 0 et 1
+                    const currentValue = Math.floor(startValue + (progress * (targetValue - startValue)));
+                    counter.innerText = currentValue + (counter.id === "donations" ? " euros récoltés" : (counter.id === "wells" ? " puits réalisés" : (counter.id === "packages" ? " colis distribués" : " personnes nourries")));
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    }
+                }
+                window.requestAnimationFrame(step);
+            });
+        }
+        function animateOnScroll(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounters();
+                    updateValues();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5
+        };
+        const observer = new IntersectionObserver(animateOnScroll, options);
+        const elementsToObserve = document.querySelectorAll('.chiffres');
+        elementsToObserve.forEach(element => observer.observe(element));
+    </script>
 </body>
 
 </html>
