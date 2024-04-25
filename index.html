@@ -319,10 +319,10 @@
         </section>
     </div>
     <div class="chiffres">
-        <div class="counter" id="donations"></div>
-        <div class="counter" id="wells"></div>
-        <div class="counter" id="packages"></div>
-        <div class="counter" id="people"></div>
+        <div class="counter" id="donations"><span class="number">0</span><span class="text"></span></div>
+        <div class="counter" id="wells"><span class="number">0</span><span class="text"></span></div>
+        <div class="counter" id="packages"><span class="number">0</span><span class="text"></span></div>
+        <div class="counter" id="people"><span class="number">0</span><span class="text"></span></div>
     </div>
     <div class="liens-utile2-container">
         <div class="liens-utiles2">
@@ -379,6 +379,7 @@
         function updateValues() {
             const currentDay = new Date().getDate();
             const currentMonth = new Date().getMonth();
+
             if (currentDay !== initialDay) {
                 initialDay = currentDay;
                 targetDonations += 5;
@@ -411,14 +412,19 @@
                     default:
                         targetValue = 0;
                 }
-                const duration = 2000; // Durée de l'animation en millisecondes
-                const startTime = performance.now(); // Heure de début de l'animation
+                const duration = 2000; 
+                const startTime = performance.now(); 
 
                 function step(currentTime) {
                     const elapsedTime = currentTime - startTime;
-                    const progress = Math.min(elapsedTime / duration, 1); // Progression de l'animation entre 0 et 1
+                    const progress = Math.min(elapsedTime / duration, 1); 
                     const currentValue = Math.floor(startValue + (progress * (targetValue - startValue)));
-                    counter.innerText = currentValue + (counter.id === "donations" ? " euros récoltés" : (counter.id === "wells" ? " puits réalisés" : (counter.id === "packages" ? " colis distribués" : " personnes nourries")));
+                    counter.querySelector('.number').innerText = currentValue;
+                    counter.querySelector('.number').style.color = '#00c807'; 
+                    const text = counter.querySelector('.text');
+                    if (text) {
+                        text.innerText = (counter.id === "donations" ? " euros récoltés" : (counter.id === "wells" ? " puits réalisés" : (counter.id === "packages" ? " colis distribués" : " personnes nourries")));
+                    }
                     if (progress < 1) {
                         window.requestAnimationFrame(step);
                     }
@@ -444,6 +450,7 @@
         const elementsToObserve = document.querySelectorAll('.chiffres');
         elementsToObserve.forEach(element => observer.observe(element));
     </script>
+
 </body>
 
 </html>
