@@ -15,11 +15,9 @@ h2,h5{font-size:20px;margin-top:5%}h5,h6{text-align:left;margin-left:3%}h2{text-
 .text {
     font-size: 20px;
 }
-
 .number {
     font-size: 40px;
 }
-
 h1 {font-family:'Times New Roman', Times, serif;}
 .strong-color {
     color: green;
@@ -138,6 +136,15 @@ body {
         font-size: 30px;
         margin-top: 20%;
         margin-bottom: 7%;
+    }
+    .chiffres {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        flex-direction: column;
     }
     .texte-index-mobile,
     .caritative-index {
