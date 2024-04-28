@@ -24,7 +24,7 @@
     <nav class="navbar">
         <a href="index.html" class="logo-link">
             <img src="./logo/Aicha750.png" alt="association-musulmane" class="logo" loading="lazy" decoding="async">
-        </a> 
+        </a>
         <label for="btn" class="icon">
             <svg viewBox="0 0 100 80" width="40" height="40">
                 <rect width="80" height="11"></rect>
@@ -322,21 +322,27 @@
                 contact.firdaws91@gmail.com</a>
         </div>
     </div>
+    <div class="chiffres">
+        <div class="counter" id="donations"><span class="number">0</span><span class="text"></span></div>
+        <div class="counter" id="wells"><span class="number">0</span><span class="text"></span></div>
+        <div class="counter" id="packages"><span class="number">0</span><span class="text"></span></div>
+        <div class="counter" id="people"><span class="number">0</span><span class="text"></span></div>
+    </div>
     <a class="mentions" href="mentionslegales.html" target="_blank">Mentions légales</a>
     <a class="mentions" href="CGU.html" target="_blank">CGU</a>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-          var menuToggle = document.getElementById("btn");
-          var navLinks = document.querySelectorAll(".nav-menu a");
-          navLinks.forEach(function (link) {
-            link.addEventListener("click", function () {
-              menuToggle.checked = false;
+            var menuToggle = document.getElementById("btn");
+            var navLinks = document.querySelectorAll(".nav-menu a");
+            navLinks.forEach(function (link) {
+                link.addEventListener("click", function () {
+                    menuToggle.checked = false;
+                });
             });
-          });
         });
-      </script>
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const options = {
@@ -359,6 +365,85 @@
                 observer.observe(element);
             });
         });
+    </script>
+    <script>
+        let targetDonations = 915;
+        let targetWells = 3;
+        let targetPackages = 90;
+        let targetPeople = 360;
+        let initialDay = new Date().getDate();
+        let initialMonth = new Date().getMonth();
+        function updateValues() {
+            const currentDay = new Date().getDate();
+            const currentMonth = new Date().getMonth();
+            if (currentDay !== initialDay) {
+                initialDay = currentDay;
+                targetDonations += 5;
+            }
+            if (currentMonth !== initialMonth) {
+                initialMonth = currentMonth;
+                targetWells += 1;
+                targetPackages += 30;
+                targetPeople += 120;
+            }
+        }
+        function animateCounters() {
+            const counters = document.querySelectorAll('.counter');
+            counters.forEach(counter => {
+                let startValue = 0;
+                let targetValue;
+                switch (counter.id) {
+                    case "donations":
+                        targetValue = targetDonations;
+                        break;
+                    case "wells":
+                        targetValue = targetWells;
+                        break;
+                    case "packages":
+                        targetValue = targetPackages;
+                        break;
+                    case "people":
+                        targetValue = targetPeople;
+                        break;
+                    default:
+                        targetValue = 0;
+                }
+                const duration = 2000;
+                const startTime = performance.now();
+                function step(currentTime) {
+                    const elapsedTime = currentTime - startTime;
+                    const progress = Math.min(elapsedTime / duration, 1);
+                    const currentValue = Math.floor(startValue + (progress * (targetValue - startValue)));
+                    counter.querySelector('.number').innerText = currentValue;
+                    counter.querySelector('.number').style.color = '#00c807';
+                    const text = counter.querySelector('.text');
+                    if (text) {
+                        text.innerText = (counter.id === "donations" ? " euros récoltés" : (counter.id === "wells" ? " puits réalisés" : (counter.id === "packages" ? " colis distribués" : " personnes nourries")));
+                    }
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    }
+                }
+                window.requestAnimationFrame(step);
+            });
+        }
+        function animateOnScroll(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounters();
+                    updateValues();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5
+        };
+        const observer = new IntersectionObserver(animateOnScroll, options);
+        const elementsToObserve = document.querySelectorAll('.chiffres');
+        elementsToObserve.forEach(element => observer.observe(element));
     </script>
 </body>
 
