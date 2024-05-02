@@ -301,8 +301,6 @@
         document.addEventListener("DOMContentLoaded", function () {
             var menuToggle = document.getElementById("btn");
             var navLinks = document.querySelectorAll(".nav-menu a");
-
-            // Ferme le menu lorsqu'un lien est cliqué
             navLinks.forEach(function (link) {
                 link.addEventListener("click", function () {
                     menuToggle.checked = false;
@@ -317,7 +315,6 @@
                 rootMargin: '0px',
                 threshold: 0.8
             };
-
             const observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -325,19 +322,17 @@
                     }
                 });
             }, options);
-
             const elements = document.querySelectorAll('.rectangle_gris, .bouton-don, .bouton-puits, .financer-puits p, .eaulavie p');
-
             elements.forEach(element => {
                 observer.observe(element);
             });
         });
     </script>
     <script>
-        let targetDonations = 3018;
-        let targetWells = 3;
-        let targetPackages = 90;
-        let targetPeople = 360;
+        let targetDonations = 4018;
+        let targetWells = 4;
+        let targetPackages = 120;
+        let targetPeople = 480;
         let initialDay = new Date().getDate();
         let initialMonth = new Date().getMonth();
         function updateValues() {
