@@ -57,34 +57,51 @@
             </li>
         </ul>
     </nav>
-    <div class="àpropos">
-        <h2>FIRDAWS 91</h2>
-        <P class="texte-apropos"><br>En tant qu'organisme reconnu <strong>d'intérêt général</strong>, l'association
-            FIRDAWS, enregistré sous
-            le numéro
-            W772010744,
-            émet un <strong>reçu fiscal</strong> pour chaque don effectué. Cette initiative vous permet de bénéficier
-            d'une <strong>réduction
-                d'impôt</strong> pouvant aller jusqu'à 66 % du montant de votre don. <br><br><br>Un don de
-            <strong>20€</strong> revient à <strong>6,80€</strong> après
-            réduction d’impôts. <br><br>
-            Un don de <strong>60€</strong> revient à <strong>20,40€</strong> après réduction d’impôts. <br><br>
-            Un don de <strong>100€</strong> revient à <strong>34€</strong> après réduction d’impôts. <br><br>
-        <p class="texte2-apropos"><strong>Réduction d'impôts</strong>: Le montant de la réduction d'impôts dépend de
-            votre
-            situation personnelle ainsi que de la somme que vous avez versée en
-            dons. La réduction d’impôts s’applique dans la limite de 20 % du revenu imposable.
-            Dans le cas où le montant total de vos dons excède le plafond de 20 %, l'excédent peut être reporté sur les
-            5 années suivantes. Ces dons reportés bénéficieront également de la réduction d'impôts dans les mêmes
-            conditions que celles initialement appliquées. <br><br><br><strong>Déclaration des dons</strong>: Les dons
-            que vous avez effectués au cours d'une
-            année seront déclarés l'année suivante, lors de votre déclaration de revenus.
-            Dans la case 7UD de votre déclaration, vous pourrez indiquer le montant total de vos dons.
-            Les reçus fiscaux délivrés suite à vos dons servent de justificatifs qui peuvent être demandés par les
-            impôts pour vérifier l'exactitude du montant que vous avez déclaré. Il est essentiel de conserver ces reçus
-            pendant au moins 3 ans.
+    <h1>FIRDAWS 91</h1><br>
+    <h2>Association caritative</h2><br>
+    <div class="caritative-index">
+        <p><strong>Une association caritative</strong> est une organisation à but <strong class="strong-color">non
+                lucratif</strong> dont l'objectif principal est de mener des
+            activités sociales en vue d'aider des causes humanitaires, des groupes défavorisés ou
+            des problèmes sociaux. Ces <strong class="strong-color">associations</strong> sont généralement créées par
+            des individus ou des groupes de
+            personnes partageant une préoccupation commune pour le <strong class="strong-color">bien-être</strong> de la
+            société.
         </p>
-        </P>
+    </div><br>
+    <div class="caritative-index">
+        <p><strong>But Non Lucratif</strong> : Les <strong class="strong-color">associations caritatives</strong> n'ont
+            pas pour objectif de réaliser des profits financiers.
+            Tout l'argent collecté est utilisé pour soutenir la cause spécifique pour laquelle
+            l'association a été créée.
+        </p>
+    </div><br>
+    <div class="caritative-index">
+        <p><strong>Mission Sociale</strong> : Elles ont une <strong class="strong-color">mission sociale</strong>
+            définie, qui peut inclure des <strong class="strong-color">actions humanitaires</strong>, des
+            secours en cas de catastrophe, l'aide aux personnes défavorisées, la sensibilisation à des questions
+            sociales, etc.
+        </p>
+    </div><br>
+    <div class="caritative-index">
+        <p><strong>Engagement Bénévole</strong> : Les membres de ces associations sont souvent des <strong
+                class="strong-color">bénévoles</strong> qui consacrent leur temps,
+            leurs compétences et leurs ressources au service de la mission de l'association.
+        </p>
+    </div><br>
+    <div class="caritative-index">
+        <p><strong>Transparence</strong> : Les associations caritatives sont tenues d'être <strong
+                class="strong-color">transparentes</strong> quant à la manière
+            dont elles utilisent les fonds qui leur sont confiés. La France a des réglementations spécifiques pour
+            garantir cette transparence.
+        </p>
+    </div><br>
+    <div class="caritative-index">
+        <p><strong>Impact Social</strong> : L'objectif ultime est d'avoir un <strong class="strong-color">impact
+                positif</strong> sur la société en contribuant à améliorer les conditions de vie des personnes dans le
+            besoin, ou à sensibiliser le
+            public à des questions importantes.
+        </p>
     </div>
     <h3><u>Dons Mensuels</u></h3>
     <div class="plan-carteee-container">
@@ -268,6 +285,29 @@
                 link.addEventListener("click", function () {
                     menuToggle.checked = false;
                 });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.8
+            };
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('slide-up');
+                    }
+                });
+            }, options);
+
+            const elements = document.querySelectorAll('.texte-index-mobile, .caritative-index');
+
+            elements.forEach(element => {
+                observer.observe(element);
             });
         });
     </script>
