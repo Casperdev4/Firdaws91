@@ -671,6 +671,7 @@ body {
     }
     .image123 {
         margin: 3% 20%;
+        margin-bottom: 6%;
         flex: 1;
         width: 45%;
         padding: 7% 0;
