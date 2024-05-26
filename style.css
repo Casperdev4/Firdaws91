@@ -4,7 +4,7 @@ h1,h2,h3,h4,h5,h6,p,ul{font-family:Helvetica,sans-serif}
 h1{margin-left:3%;margin-right:3%}
 h3{font-weight:500;font-size:30px;margin-bottom:5%}
 ul{color:#2a2a53}
-p{color:#131313;font-weight:300;font-size:18px;margin-bottom:6%;margin-left:5%;margin-right:5%;line-height:1.4;word-spacing:5px}
+p{color:#131313;font-weight:300;font-size:19px;margin-bottom:6%;margin-left:5%;margin-right:5%;line-height:1.4;word-spacing:5px}
 h2,h5{font-size:20px;margin-top:5%}
 h5,h6{text-align:left;margin-left:3%}
 h2{text-align:center;margin-bottom:4%;font-weight:550}
@@ -42,12 +42,6 @@ h1{font-family:'Times New Roman',Times,serif}
 .nos-missions h2{color:#000;font-size:40px;font-weight:80}
 .image_secuinfo{display:flex;justify-content:center;margin-top:5%;margin-bottom:5%}
 .image_secuinfo img{width:520px}
-.image123::after,.image123::before{content:'';position:absolute;background:linear-gradient(45deg,#ffae22,#ad00c1,#0076de,#00c807)}
-.images-index123{display:flex;padding:5%;gap:1%}
-.image123{margin:3% 0;flex:1;position:relative;width:45%;padding:4% 0;font-size:5em;color:#191919;text-align:center;background:#fff}
-.image123::after{top:-1%;left:-1%;right:-1%;bottom:-1%;z-index:-1}
-.image123::before{top:0;left:0;right:0;bottom:0;z-index:-2;filter:blur(10px)}
-.image123+.image123{margin-left:1%}
 .image-item{width:50%;vertical-align:top}
 .image-description{margin-top:4%;margin-bottom:-12%;padding:7%;text-align:center;font-size:27%;border-radius:35px}
 *{box-sizing:border-box;outline:none;margin:0;padding:0}
@@ -88,11 +82,36 @@ body{margin-top:16%}
 .plan-carteee__text2{margin:0;text-align:center;font-size:.9em;color:#000}
 .icon-paypal{color:#2651b5;font-size:22px}
 .mentions{justify-content:center;display:flex;align-items:center;color:#191919;font-size:15px;text-decoration:none}
+.container-index {
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .container-index .text {
+    text-align: center;
+  }
+  .image {
+    width: 40%;
+    margin-left: 5%;
+    height: auto;
+  }
+  .container-index2 {
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .image2 {
+    width: 40%;
+    height: auto;
+    margin-right: 5%;
+  }
+  .container-index2 .text2 {
+    text-align: center;
+  }
 .hr-mobile,
-.image123-mobile,
-.plan-carteee-mobile,
-.texte-index-mobile,
-.voir-index1-mobile {
+.plan-carteee-mobile,.icon-anime {
     display: none
 }
 
@@ -124,13 +143,7 @@ body{margin-top:16%}
     .imageindex h6{font-size:200%}
     .enfant-bois h6{font-size:200%}
     .eaulavie h2,.financer-puits h2,.puitsafrique h2,.puitscambodge h2{font-size:1.7em;margin-bottom:10%}
-    .eaulavie p,.financer-puits p,.puitsafrique p,.puitscambodge p,.rectangle_gris p,.texte-apropos p,.texte2-apropos p,.àpropos p{font-size:1em}
-    .image123::after,.image123::before{content:'';position:absolute;background:linear-gradient(45deg,#ffae22,#ad00c1,#0076de,#00c807)}
-    .image123-mobile{display:flex}
-    .image123{margin:3% 20%;margin-bottom:6%;flex:1;width:45%;padding:7% 0;font-size:5em;color:#191919;text-align:center;background:#fff}
-    .image123::after{top:-1%;left:-1%;right:-1%;bottom:-1%;z-index:-1}
-    .image123::before{top:0;left:0;right:0;bottom:0;z-index:-2;filter:blur(10px)}
-    .image123+.image123{margin-left:1%}
+    .eaulavie p,.financer-puits p,.puitsafrique p,.puitscambodge p,.rectangle_gris p,.texte-apropos p,.texte2-apropos p,.àpropos p{font-size:19px}
     .image-item{width:90%;vertical-align:top}
     .image-description{margin-top:5%;background-color:#fff;padding:7%;text-align:center;font-size:27%}
     .imagepuits img{width:60%;border-radius:50%;margin-top:5%;margin-bottom:6%}
@@ -163,9 +176,9 @@ body{margin-top:16%}
     .eaulavie p,.financer-puits p,.rectangle_gris{opacity:0;transform:translateY(50px);transition:opacity .5s,transform .5s}
     .eaulavie p.slide-up,.financer-puits p.slide-up,.rectangle_gris.slide-up{opacity:1;transform:translateY(0)}
     .imagecolis-puits-maraudes{margin-top:10%}
-    .images-index123,
-    .plan-carteee-container,
-    .voir-index123 {
+    .icon-anime{display:flex;flex-direction:column;align-items:center}.icon-anime h3{margin-top:3%;margin-left: 3%;margin-right: 3%;font-weight:200;font-size:19px;line-height: 25px;}
+    .icon-item1,.icon-item2,.icon-item3,.icon-item4{text-align:center;margin:5px 0;position:relative}.icon-item1 img,.icon-item2 img,.icon-item3 img,.icon-item4 img{width:70%;height:240px;margin-bottom:3%;border-radius: 49%;}.icon-item1 p,.icon-item2 p,.icon-item3 p,.icon-item4 p{margin-bottom:6%;margin-top: 5%;font-size:22px;letter-spacing:2px}.icon-anime a {color: #000;text-decoration: none;}
+    .plan-carteee-container,.container-index2,.container-index {
         display: none
     }
 }
