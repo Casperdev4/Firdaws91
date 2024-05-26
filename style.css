@@ -43,12 +43,12 @@ h1{font-family:'Times New Roman',Times,serif}
 .image_secuinfo{display:flex;justify-content:center;margin-top:5%;margin-bottom:5%}
 .image_secuinfo img{width:520px}
 .image123::after,.image123::before{content:'';position:absolute;background:linear-gradient(45deg,#ffae22,#ad00c1,#0076de,#00c807)}
-.images-index123{display:flex;padding:2%;gap:1%}
+.images-index123{display:flex;padding:5%;gap:1%}
 .image123{margin:3% 0;flex:1;position:relative;width:45%;padding:4% 0;font-size:5em;color:#191919;text-align:center;background:#fff}
 .image123::after{top:-1%;left:-1%;right:-1%;bottom:-1%;z-index:-1}
 .image123::before{top:0;left:0;right:0;bottom:0;z-index:-2;filter:blur(10px)}
 .image123+.image123{margin-left:1%}
-.image-item{width:80%;vertical-align:top}
+.image-item{width:50%;vertical-align:top}
 .image-description{margin-top:4%;margin-bottom:-12%;padding:7%;text-align:center;font-size:27%;border-radius:35px}
 *{box-sizing:border-box;outline:none;margin:0;padding:0}
 body{margin-top:16%}
