@@ -423,7 +423,7 @@
                     counter.querySelector('.number').style.color = '#00c807';
                     const text = counter.querySelector('.text');
                     if (text) {
-                        text.innerText = (counter.id === "donations" ? " euros récoltés" : (counter.id === "wells" ? " puits réalisés" : (counter.id === "packages" ? " colis distribués" : " personnes nourries")));
+                        text.innerText = (counter.id === "donations" ? " € récoltés" : (counter.id === "wells" ? " Puits réalisés" : (counter.id === "packages" ? " Colis distribués" : " Personnes nourries")));
                     }
                     if (progress < 1) {
                         window.requestAnimationFrame(step);
