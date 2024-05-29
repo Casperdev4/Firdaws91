@@ -4,24 +4,72 @@
 <url>
 <loc>https://firdaws91.fr</loc>
     <image:image>
-        <image:loc>https://firdaws91.fr/missionpuits.webp</image:loc>
-        <image:caption>Explorez notre engagement envers la mission des puits à travers cette image évocatrice. Ensemble, contribuons à un accès durable à l'eau. #Solidarité #MissionPuits #Firdaws91</image:caption>
-        <image:title>construction-puits</image:title>
+        <image:loc>https://firdaws91.fr/imageindex.webp</image:loc>
+        <image:caption>Plongez dans l'univers de l'association Firdaws91 à travers cette image empreinte de partage et de solidarité.</image:caption>
+        <image:title>association-musulmane</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://firdaws91.fr/missionmaraudes.webp</image:loc>
-        <image:caption>Plongez dans l'univers de nos maraudes à travers cette image captivante. Ensemble, agissons pour un impact positif. #Solidarité #Maraude #Firdaws91</image:caption>
-        <image:title>maraude-paris</image:title>
+        <image:loc>https://firdaws91.fr/puit-afrique.webp</image:loc>
+        <image:caption>Explorez notre engagement envers la mission des puits à travers cette image évocatrice. Ensemble, contribuons à un accès durable à l'eau. #Solidarité #MissionPuits #Firdaws91</image:caption>
+        <image:title>puits-afrique</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://firdaws91.fr/dons-colis-alimentaire.webp</image:loc>
+        <image:caption>Explorez notre mission dédiée à la distribution de colis alimentaires. Ensemble, faisons une différence. #Solidarité #Firdaws91</image:caption>
+        <image:title>dons-alimentaire</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://firdaws91.fr/missionpuits.webp</image:loc>
+        <image:caption>Explorez notre engagement envers la mission des puits à travers cette image évocatrice. Ensemble, contribuons à un accès durable à l'eau. #Solidarité #MissionPuits #Firdaws91</image:caption>
+        <image:title>puits-afrique</image:title>
     </image:image>
     <image:image>
         <image:loc>https://firdaws91.fr/missioncolis.webp</image:loc>
         <image:caption>Explorez notre mission dédiée à la distribution de colis alimentaires. Ensemble, faisons une différence. #Solidarité #Firdaws91</image:caption>
-        <image:title>colis-alimentaire</image:title>
+        <image:title>dons-alimentaire</image:title>
+    </image:image>
+</url>
+<url>
+<loc>https://firdaws91.fr/colis-alimentaires.html</loc>
+    <image:image>
+        <image:loc>https://firdaws91.fr/colisalim.webp</image:loc>
+        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
+        <image:title>dons-alimentaire</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://firdaws91.fr/imageindex.webp</image:loc>
-        <image:caption>Plongez dans l'univers de l'association Firdaws91 à travers cette image empreinte de partage et de solidarité.</image:caption>
+        <image:loc>https://firdaws91.fr/dons-alimentaires.webp</image:loc>
+        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
+        <image:title>dons-alimentaires-aux-associations</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://firdaws91.fr/preparation-colis-alimentaire.webp</image:loc>
+        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
+        <image:title>aide-humanitaire</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://firdaws91.fr/distribution-nourriture.webp</image:loc>
+        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
+        <image:title>colis-alimentaire</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://firdaws91.fr/association-firdaws.webp</image:loc>
+        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
         <image:title>association-musulmane</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://firdaws91.fr/aide-alimentaire.webp</image:loc>
+        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
+        <image:title>association-musulmane-fiable</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://firdaws91.fr/colis-alimentaires.webp</image:loc>
+        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
+        <image:title>dons-association</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://firdaws91.fr/colis-alimentaire.webp</image:loc>
+        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
+        <image:title>dons-alimentaires</image:title>
     </image:image>
 </url>
 <url>
@@ -48,49 +96,6 @@
         <image:loc>https://firdaws91.fr/imagemaraude.webp</image:loc>
         <image:caption>Découvrez l'essence de notre mission de maraude à travers cette image vibrante. Ensemble, apportez de la chaleur à ceux qui en ont le plus besoin. #Solidarité #Maraude</image:caption>
         <image:title>maraude-paris</image:title>
-    </image:image>
-</url>
-<url>
-<loc>https://firdaws91.fr/colis-alimentaires.html</loc>
-    <image:image>
-        <image:loc>https://firdaws91.fr/colisalim.webp</image:loc>
-        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
-        <image:title>colis-alimentaire</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://firdaws91.fr/dons-alimentaires.webp</image:loc>
-        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
-        <image:title>dons-alimentaires-aux-associations</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://firdaws91.fr/preparation-colis-alimentaire.webp</image:loc>
-        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
-        <image:title>aide-humanitaire</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://firdaws91.fr/distribution-nourriture.webp</image:loc>
-        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
-        <image:title>colis-alimentaire</image:title>
-    </image:image>
-        <image:image>
-        <image:loc>https://firdaws91.fr/association-firdaws.webp</image:loc>
-        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
-        <image:title>association-musulmane</image:title>
-    </image:image>
-        <image:image>
-        <image:loc>https://firdaws91.fr/aide-alimentaire.webp</image:loc>
-        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
-        <image:title>colis-alimentaires</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://firdaws91.fr/colis-alimentaires.webp</image:loc>
-        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
-        <image:title>dons-association</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://firdaws91.fr/colis-alimentaire.webp</image:loc>
-        <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
-        <image:title>dons-alimentaires</image:title>
     </image:image>
 </url>
 
