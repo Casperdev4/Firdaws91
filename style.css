@@ -129,7 +129,7 @@ body{margin-top:16%}
     .texte-index-mobile{display:flex;justify-content:center;color:#222;font-weight:350;font-size:18px;text-align:center;width:100%}
     .texte-index-mobile p{margin-top:7%;margin-bottom:5%}
     .nos-missions{margin-top:15%;margin-bottom:10%}
-    .hr-mobile{display:flex;color:#000;width:90%;margin:12% auto 7%}
+    .hr-mobile{display:flex;color:#000;width:70%;margin:12% auto 7%;height: 2px;background-color: #000;}
     .icon,.logo,.navbar{display:flex}
     body{margin-top:30%}
     .navbar{padding:10px;justify-content:space-between;align-items:center;position:fixed;top:0;left:0;right:0;z-index:1000;height:11%}
