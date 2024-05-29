@@ -177,7 +177,7 @@ body{margin-top:16%}
     .eaulavie p.slide-up,.financer-puits p.slide-up,.rectangle_gris.slide-up{opacity:1;transform:translateY(0)}
     .imagecolis-puits-maraudes{margin-top:10%}
     .icon-anime{display:flex;flex-direction:column;align-items:center}.icon-anime h3{margin-top:3%;margin-left: 3%;margin-right: 3%;font-weight:200;font-size:19px;line-height: 25px;}
-    .icon-item1,.icon-item2,.icon-item3,.icon-item4{text-align:center;margin:5px 0;position:relative}.icon-item1 img,.icon-item2 img,.icon-item3 img,.icon-item4 img{width:70%;height:240px;margin-bottom:3%;border-radius: 49%;}.icon-item1 p,.icon-item2 p,.icon-item3 p,.icon-item4 p{margin-bottom:6%;margin-top: 5%;font-size:22px;letter-spacing:2px}.icon-anime a {color: #000;text-decoration: none;}
+    .icon-item1,.icon-item2,.icon-item3,.icon-item4{text-align:center;margin:5px 0;position:relative}.icon-item1 img,.icon-item2 img,.icon-item3 img,.icon-item4 img{width:100%;height:240px;margin-bottom:3%;}.icon-item1 p,.icon-item2 p,.icon-item3 p,.icon-item4 p{margin-bottom:6%;margin-top: 5%;font-size:22px;letter-spacing:2px}.icon-anime a {color: #000;text-decoration: none;}
     .plan-carteee-container,.container-index2,.container-index {
         display: none
     }
