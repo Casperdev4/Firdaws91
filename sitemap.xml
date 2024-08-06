@@ -28,15 +28,6 @@
         <image:caption>Explorez notre mission dédiée à la distribution de colis alimentaires. Ensemble, faisons une différence. #Solidarité #Firdaws91</image:caption>
         <image:title>colis alimentaire</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:BoundingBox>
-                <geo:west>1.451</geo:west>
-                <geo:east>3.575</geo:east>
-                <geo:north>49.225</geo:north>
-                <geo:south>48.028</geo:south>
-            </geo:BoundingBox>
-        </geo:geo>
 </url>
 <url>
 <loc>https://firdaws91.fr/colis-alimentaires.html</loc>
@@ -80,15 +71,6 @@
         <image:caption>Explorez notre engagement envers la solidarité à travers la distribution de colis alimentaires. Ensemble, faites la différence. #Solidarité #Firdaws91</image:caption>
         <image:title>dons alimentaires</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:BoundingBox>
-                <geo:west>1.451</geo:west>
-                <geo:east>3.575</geo:east>
-                <geo:north>49.225</geo:north>
-                <geo:south>48.028</geo:south>
-            </geo:BoundingBox>
-        </geo:geo>
 </url>
 <url>
 <loc>https://firdaws91.fr/construction-puit.html</loc>
@@ -107,15 +89,6 @@
         <image:caption>Explorez notre mission de construire des puits au Bangladesh à travers cette image émouvante. Ensemble, œuvrons pour un avenir plus lumineux. #Solidarité #EauPourTous #Asie</image:caption>
         <image:title>construction puit afrique</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:BoundingBox>
-                <geo:west>1.451</geo:west>
-                <geo:east>3.575</geo:east>
-                <geo:north>49.225</geo:north>
-                <geo:south>48.028</geo:south>
-            </geo:BoundingBox>
-        </geo:geo>
 </url>
 <url>
 <loc>https://firdaws91.fr/maraude.html</loc>
@@ -124,15 +97,6 @@
         <image:caption>Découvrez l'essence de notre mission de maraude à travers cette image vibrante. Ensemble, apportez de la chaleur à ceux qui en ont le plus besoin. #Solidarité #Maraude</image:caption>
         <image:title>maraude-paris</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:BoundingBox>
-                <geo:west>1.451</geo:west>
-                <geo:east>3.575</geo:east>
-                <geo:north>49.225</geo:north>
-                <geo:south>48.028</geo:south>
-            </geo:BoundingBox>
-        </geo:geo>
 </url>
 
 </urlset>
